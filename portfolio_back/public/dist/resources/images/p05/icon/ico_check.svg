@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="icon-check" transform="translate(-280 -524)">
+    <rect id="frame" width="20" height="20" rx="10" transform="translate(280 524)" fill="#e8e8e8"/>
+    <path id="icon-check-2" data-name="icon-check" d="M9.518.251a.877.877,0,0,1,1.228,0,.849.849,0,0,1,0,1.212L4.377,7.749a.877.877,0,0,1-1.228,0L.254,4.892a.849.849,0,0,1,0-1.212.877.877,0,0,1,1.228,0L3.763,5.931Z" transform="translate(285 530)" fill="#fff"/>
+  </g>
+</svg>

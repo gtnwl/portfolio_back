@@ -1,0 +1,29 @@
+.btn{
+    @include btnD();
+}
+.btnBox{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    .btn{
+        flex:1; 
+    }
+
+    &.fixed{
+        position: fixed;
+        bottom: 0;
+
+        
+    }
+    &.fixed_v2{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 42.32%;
+        box-sizing: border-box;
+        padding: 0px 20px;
+    }
+}

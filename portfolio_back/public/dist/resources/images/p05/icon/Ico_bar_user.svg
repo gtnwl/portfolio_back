@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Icon-feather-user" transform="translate(-325 -2604)">
+    <rect id="frame" width="24" height="24" transform="translate(325 2604)" fill="none"/>
+    <g id="Icon_feather-user" data-name="Icon feather-user" transform="translate(322 2601.5)">
+      <path id="패스_1972" data-name="패스 1972" d="M23.778,29.167V26.944A4.444,4.444,0,0,0,19.333,22.5H10.444A4.444,4.444,0,0,0,6,26.944v2.222" transform="translate(0 -4.667)" fill="none" stroke="rgba(255,255,255,0.3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_1973" data-name="패스 1973" d="M20.889,8.944A4.444,4.444,0,1,1,16.444,4.5,4.444,4.444,0,0,1,20.889,8.944Z" transform="translate(-1.556)" fill="none" stroke="rgba(255,255,255,0.3)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Icon-feather-map-pin" transform="translate(-100 -2604)">
+    <rect id="frame" width="24" height="24" transform="translate(100 2604)" fill="none"/>
+    <g id="Icon_feather-map-pin" data-name="Icon feather-map-pin" transform="translate(99.5 2604.5)">
+      <path id="패스_1976" data-name="패스 1976" d="M20.864,9.682c0,6.364-8.182,11.818-8.182,11.818S4.5,16.045,4.5,9.682a8.182,8.182,0,1,1,16.364,0Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_1977" data-name="패스 1977" d="M18.955,13.227A2.727,2.727,0,1,1,16.227,10.5a2.727,2.727,0,0,1,2.727,2.727Z" transform="translate(-3.545 -3.545)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46">
+    <defs>
+        <filter id="q57kpy354a">
+            <feFlood flood-color="#478F08" flood-opacity="1" result="floodOut"/>
+            <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut"/>
+            <feBlend in="compOut" in2="SourceGraphic"/>
+        </filter>
+        <filter id="gfkzlorwob">
+            <feFlood flood-color="#222" flood-opacity="1" result="floodOut"/>
+            <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut"/>
+            <feBlend in="compOut" in2="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g filter="url(#q57kpy354a)"/>
+    <g filter="url(#gfkzlorwob)">
+        <path fill-rule="evenodd" fill="#222" d="M40.976 20.972H10.708L23.121 8.56l-2.122-2.121-16.06 16.06 16.06 16.061 2.122-2.121-12.467-12.467h30.322v-3z"/>
+    </g>
+</svg>

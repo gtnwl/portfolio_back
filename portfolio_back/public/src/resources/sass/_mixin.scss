@@ -1,0 +1,91 @@
+// Float 초기화
+@mixin clearFix() {
+	&:after { 
+        display: block; 
+        content:""; 
+        clear: both; 
+    }
+}
+// Text 말줄임
+@mixin ellipsis() {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+//webkit 2줄 말줄임
+@mixin ellipsis2() {
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    display:-webkit-box;
+    overflow:hidden;
+    text-overflow:ellipsis;
+} 
+//webkit 3줄 말줄임
+@mixin ellipsis3() {
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    display:-webkit-box;
+    overflow:hidden;
+    text-overflow:ellipsis;
+} 
+//bg 딤 처리
+@mixin bgLayer() {
+    &::after{
+        position: fixed;
+        left: 0;
+        top: -9999px;
+        bottom: -9999px;
+        right: 0;
+        width: 100%;
+        background: rgba(0,0,0,0.8);
+        content: '';
+        z-index: 1;
+    }
+}
+
+// img 태그 중앙정렬
+@mixin imgCenter() {
+	position:relative;
+	img {
+        position:absolute;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        max-width:100%;
+        min-width:100%;
+        min-height:100%;
+        margin:auto;
+    }
+}
+
+// Button
+@mixin btnD() {
+    display:inline-block;
+    // width:100%;
+    padding: 0 10px;
+    box-sizing:border-box;
+    border:1px solid #E8E8E8;
+    border-radius:5px;
+    color:#fff;
+    font-size:16px;
+    vertical-align:middle;
+    text-align:center;
+    padding: 20px;
+    cursor: pointer;
+    &:focus, &:hover {
+        border-color: #fff;
+    }
+}
+
+
+@mixin scroll() {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-scroll-padding-left: 20px;
+    scroll-padding-left: 20px;
+    -webkit-overflow-scrolling: touch;
+    -webkit-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+}

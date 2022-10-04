@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M14.858,16a1.135,1.135,0,0,1-.808-.335L11.485,13.1A7.237,7.237,0,1,1,13.1,11.485l2.565,2.565A1.143,1.143,0,0,1,14.858,16ZM7.239,2.286a4.953,4.953,0,1,0,3.418,8.537,1.185,1.185,0,0,1,.166-.166A4.953,4.953,0,0,0,7.239,2.286Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon-search" transform="translate(-304 -443)">
+    <rect id="frame" width="24" height="24" transform="translate(304 443)" fill="none"/>
+    <g id="icon-search-2" data-name="icon-search" transform="translate(308 447)" clip-path="url(#clip-path)">
+      <g id="_Color" data-name="↳ 🎨Color" transform="translate(-1.905 -1.905)">
+        <rect id="_Color_background" data-name="↳ 🎨Color background" width="19.81" height="19.81" fill="rgba(0,0,0,0)"/>
+        <rect id="Color" width="19.81" height="19.81" fill="#244d4d"/>
+      </g>
+    </g>
+  </g>
+</svg>

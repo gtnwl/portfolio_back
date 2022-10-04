@@ -1,0 +1,130 @@
+<!--메인화면-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    @@include('@@webRoot/html/include/resource.html', {
+        "title" : "포트폴리오"
+    })
+</head>
+<body>
+<div class="wrap">
+<!-- header -->
+@@include('@@webRoot/html/include/header.html')
+<!--// header -->
+<!--s: 비주얼 영역-->
+    <div class="container sub_p03">
+        <div class="contents">
+            <h1 class="tit_p03">
+                오픈API 신청정보
+                <a href="p03_03_02.html" class="btn_p03">다음페이지 이동</a>
+            </h1>
+			
+			<div class="subSection openAPI01_wrap">
+				<div class="titGrpArea">
+                    <h2 class="subTlt_p03">API 신청</h2>
+				</div>
+				<div class="secInr">
+					<div class="tblW tblS openAPI_div1">
+						<table class="tbl_p03 paddingSm opneAPI opneAPI_table1">
+                            <colgroup>
+                                <col width="188">
+                                <col width="auto">
+                                <col width="188">
+                            </colgroup>
+							<caption>오픈 API 구분, 기관명정보, 담당자명, 이메일, 사용기간으로 구성된 표</caption>
+							<tbody>
+                                <tr>
+                                    <th scope="row" colspan="1">
+                                        API 구분
+                                        <span class="apiStar">*</span>
+                                    </th>
+                                    <td colspan="3" class="apiSrttn">
+                                        <select id="applyType" name="applyType" class="selBox_p03" title="신탁단체 선택">
+                                            <option value="">선택</option>
+                                            
+                                                <option value="11">학습물 (학습 참고서류)</option>
+                                            
+                                                <option value="12">일반도서 (단행본, 전집류)</option>
+                                            
+                                                <option value="13">학습물 (e-Book 및 전송 포함)</option>
+                                            
+                                                <option value="14">일반도서 (e-Book 및 전송 포함)</option>
+                                            
+                                                <option value="19">기타 도서(잡지 등)</option>
+                                            
+                                                <option value="21">일반 홈페이지</option>
+                                            
+                                                <option value="22">카페, 블로그, SNS</option>
+                                            
+                                                <option value="29">기타 온라인(메일링 서비스 등)</option>
+                                            
+                                                <option value="41">방송</option>
+                                            
+                                                <option value="42">공연</option>
+                                            
+                                                <option value="43">전시</option>
+                                            
+                                                <option value="51">상품제작</option>
+                                            
+                                                <option value="52">전단, 게시물</option>
+                                            
+                                                <option value="53">영상, 이미지 광고 제작</option>
+                                            
+                                                <option value="59">기타 출력 및 제작(청첩장, 메뉴판 등)</option>
+                                            
+                                                <option value="61">번역</option>
+                                            
+                                                <option value="62">각색</option>
+                                            
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" colspan="1">
+                                        기관명
+                                    </th>
+                                    <td colspan="3">
+                                        <input type="text" class="ipTxt_p03 readonlyInput_p03"  title="기관명" value="" readonly onfocus="this.blur()">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <label for="api_nmprChrg">담당자명</label>
+                                    </th>
+                                    <td>
+                                        <input type="text" id="api_nmprChrg" class="ipTxt_p03" title="담당자명 입력" value="">
+                                    </td>
+                                    <th scope="row">
+                                        <label for="api_email">E-MAIL</label>
+                                    </th>
+                                    <td>
+                                        <input type="text" id="api_email" class="ipTxt_p03" title="이메일 입력" value="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        사용기간
+                                        <span class="apiStar">*</span>
+                                    </th>
+                                    <td colspan="3">
+                                        <div class="datepickerW_p03">
+                                            <input type="text" id="searchDate" name="datepicker" class="ipTxt_p03 datepicker_p03" title="신청일자 시작일 입력. 날짜형식:YYYY-MM-DD" placeholder="예) YYYY-MM-DD">								
+                                        </div>
+                                        <div class="datepickerW_p03">
+                                            <input type="text" id="searchDateEnd" name="datepicker" class="ipTxt_p03 datepicker_p03" title="신청일자 종료일 입력. 날짜형식:YYYY-MM-DD" placeholder="예) YYYY-MM-DD">
+                                        </div>
+                                    </td>
+                                </tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+            <div class="btnBox_p03">
+                <a href="#;" class="btn_p03 btnConfirm">API 신청하기</a>
+            </div>
+		</div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<svg id="R_Icon" data-name="R Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M12.113.314a1.13,1.13,0,0,1,1.563,0,1.048,1.048,0,0,1,0,1.515L5.571,9.686a1.13,1.13,0,0,1-1.563,0L.324,6.115a1.048,1.048,0,0,1,0-1.515,1.13,1.13,0,0,1,1.563,0l2.9,2.814Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="R_Icon_background" data-name="R Icon background" width="20" height="20" fill="rgba(0,0,0,0)"/>
+  <g id="그룹_1248" data-name="그룹 1248" transform="translate(3 5)" clip-path="url(#clip-path)">
+    <g id="_Color" data-name="↳ 🎨Color" transform="translate(-3.077 -4.615)">
+      <rect id="_Color_background" data-name="↳ 🎨Color background" width="20" height="20" fill="rgba(0,0,0,0)"/>
+      <rect id="Color" width="20" height="20" fill="#244d4d"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,108 @@
+<!--부고검색 - 리스트-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    @@include('@@webRoot/html/include/resource.html', {
+        "title" : "전국공무원상조서비스"
+    })
+</head>
+<body>
+    <div class="wrap">
+        <!--s: header-->
+        @@include('@@webRoot/html/include/header_p04.html', {
+            "conTit" : "부고 검색"
+        })
+        <!--e: header-->
+        <div class="container">
+            <!--s: contents-->
+            <div class="contents">
+                <h1 class="hidden">부고검색 페이지</h1>
+                    <div>
+                        <form class="searchBox_p04" action="#">
+                            <fieldset>
+                                <legend>검색</legend>
+                                <input type="text" id="searchWrd" name="searchWrd" title="검색어입력" placeholder="장례식장을 검색하세요">
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="textBox_p04">
+                        <p class="text">
+                           ※ 이름이 정확하게 일치하지 않으면 검색되지 않습니다.
+                        </p>
+                    </div>
+                    <div class="inner_p04">
+                        <ul class="searchList_p04">
+                            <li>
+                                <a href="p04_02.html">
+                                    <dl>
+                                        <dt class="title">
+                                            <strong class="txt txtL">부고상세페이지로 이동</strong>
+                                            <strong class="txt txtR">상주 홍길동</strong>
+                                        </dt>
+                                        <dd class="list_p04 type2 srch">
+                                            <div class="line addr">
+                                                <p>장례식장</p>
+                                                <p>마포장례식장 111호 (서울특별시 마포구 마포대로 111)</p>
+                                            </div>
+                                            <div class="line info">
+                                                <p>임종 <span>2022년 03월 25일 일요일</span></p>
+                                                <p>발인 <span>2022년 03월 27일 화요일 09시 00분</span></p>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="p04_04.html">
+                                    <dl>
+                                        <dt class="title">
+                                            <strong class="txt txtL">발인종료 페이지로 이동</strong>
+                                            <strong  class="txt txtR">상주 홍길동</strong>
+                                        </dt>
+                                        <dd class="list_p04 type2 srch">
+                                            <div class="line addr">
+                                                <p>장례식장</p>
+                                                <p>마포장례식장 111호 (서울특별시 마포구 마포대로 111)</p>
+                                            </div>
+                                            <div class="line info">
+                                                <p>임종 <span>2022년 03월 25일 일요일</span></p>
+                                                <p>발인 <span>2022년 03월 27일 화요일 09시 00분</span></p>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="p04_02.html">
+                                    <dl>
+                                        <dt class="title">
+                                            <strong class="txt txtL">故 홍철수(발인)</strong>
+                                            <strong class="txt txtR">상주 홍길동</strong>
+                                        </dt>
+                                        <dd class="list_p04 type2 srch">
+                                            <div class="line addr">
+                                                <p>장례식장</p>
+                                                <p>마포장례식장 111호 (서울특별시 마포구 마포대로 111)</p>
+                                            </div>
+                                            <div class="line info">
+                                                <p>임종 <span>2022년 03월 25일 일요일</span></p>
+                                                <p>발인 <span>2022년 03월 27일 화요일 09시 00분</span></p>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                        <!-- footer -->
+                        <div class="btnBox_p04 full">
+                            <button class="btn_p04Lg btn_p04Full btn_p04Gray">더보기</button>
+                        </div>
+                        <!-- //footer -->
+                    
+                </div>
+            <!--s: contents-->
+        </div>
+    </div>
+</body>
+</html>

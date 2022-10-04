@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    @@include('@@webRoot/html/include/resource.html', {
+        "title" : "전국공무원상조서비스"
+    })
+</head>
+<body>
+    <div class="wrap">
+        <!--s: header-->
+        @@include('@@webRoot/html/include/header_p04_01.html', {
+            "conTit" : "광주연세산업장례식장"
+        })
+        <!--e: header-->
+        <div class="container">
+            <!--s: contents-->
+            <div class="contents">
+                <h1 class="hidden">부고 상세페이지</h1>
+                    <div class="userInfo_p04">
+                        <p>07월 28일 별세</p>
+                        <p>故 홍철수(90세/남)</p>
+                    </div>
+                    <div class="inner_p04">
+                        <dl class="searchDtlsBox_p04">
+                            <dt class="title">상주</dt>
+                            <dd class="list_p04 type2 ">
+                                <div class="line dtls">
+                                    <p>아들</p>
+                                    <p>홍길동, 홍이동, 홍삼동</p>
+                                </div>
+                                <div class="line dtls">
+                                    <p>며느리</p>
+                                    <p>김일순, 박이순, 최삼순</p>
+                                </div>
+                                <div class="line dtls">
+                                    <p>딸</p>
+                                    <p>홍이녀, 홍삼녀</p>
+                                </div>
+                            </dd>
+                            <dt class="title">빈소/발인/장지</dt>
+                                <dd class="list_p04 type2 "> 
+                                    <div class="line dtls">
+                                        <p>빈소</p>
+                                        <p>광주장례식장 2호실</p>
+                                    </div>
+                                    <div class="line dtls">
+                                        <p>발인</p>
+                                        <p>2020년 07월 30일(목요일)<br> 07시 30분 (발인 2일 전)</p>
+                                    </div>
+                                    <div class="line dtls">
+                                        <p>장지</p>
+                                        <p>광주시승화원~임실호국원</p>
+                                    </div>
+                                </dd>
+                            <dt class="title map">
+                                <p>오시는길</p>
+                                <p><button type="submit">크게보기</button></p>
+                            </dt>
+                            <dd class="list_p04 type2 map">
+                                <p class=" imgText"><img src="@@webRoot/resources/images/p04/cont/mapImg.png" alt="map"></p>
+                                <div class="inner_p04">
+                                    <p class="title">광주장례식장</p>
+                                    <p class="info">주소 광주광역시 충장로 22- 34 광주빌딩 3층 </p>
+                                    <p class="info">전화번호  010.6859.6589</p>
+                                    <p><button class="btn_p04" style="cursor: text;">주소복사</button></p>
+                                </div>
+                            </dd>
+                            <dt class="title">조문메세지<span>(1)</span></dt>
+                            <dd class="list_p04 msg">
+                                <p class="list_p04 type2">전국공무원상조서비스(주) 삼가 고인의 명복을 빕니다.</p>
+                                <p class="list_p04 type2" ><textarea type="text" name="msg" placeholder="조문메세지"></textarea></p>
+                                <p class="btnBox_p04"><button type="submit" class=" btn_p04" style="cursor: text;">조문메세지 등록</button></p>
+                            </dd>
+                        </dl>
+
+                        <!-- footer -->
+                        <div class="btnBox_p04 bugoMake">
+                            <a href="p04_05.html" class="btn_p04">부고만들기</a>
+                            <a href="#;" class="btn_p04" onclick="return ui.popup.open('#acntInfo', this);">부의금정보</a>
+                            <a href="@@webRoot/html/p04_03.html" class="btn_p04">부고보내기</a>
+                            <a href="#;" class="btn_p04"onclick="return ui.popup.open('#write', this);">부고수정</a>
+                        </div>
+                        <!--
+                        <div class="btnBox bugoMake">
+                            <a href="@@webRoot/html/JGS_000130_01.html" class="btn">화환보내기</a>
+                            <a href="#;" class="btn" onclick="return ui.popup.open('#acntInfo', this);">부의금정보</a>
+                            <a href="@@webRoot/html/JGS_000080_01.html" class="btn">부고보내기</a>
+                        </div>
+                        -->
+                        <!-- //footer --> 
+                </div>
+            </div>
+        <!--e: contents-->
+        </div>
+    </div>
+<!--s: 글남기기 팝업-->
+@@include('@@webRoot/html/unit/popup/p04_pop02.html')
+<!--e: 글남기기 팝업-->
+<!--s: 부의금 계좌정보 팝업-->
+@@include('@@webRoot/html/unit/popup/p04_pop01.html')
+<!--e: 부의금 계좌정보 팝업-->
+</body>
+</html>

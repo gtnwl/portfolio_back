@@ -1,0 +1,159 @@
+<!--메인화면-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<title>포트폴리오</title>
+
+<link rel="stylesheet" type="text/css" href="../resources/css/jquery-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/swiper-bundle.min.css" />
+<link rel="stylesheet" type="text/css" href="../resources/css/common.css" />
+<script src="../resources/js/lib/jquery-1.11.2.min.js"></script>
+<script src="../resources/js/lib/jquery.ui.datepicker-ko.js"></script>
+<script src="../resources/js/lib/jquery-ui.min.js"></script>
+<script src="../resources/js/lib/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="../resources/js/common.js"></script>
+
+</head>
+<body>
+<div class="wrap">
+<!-- header -->
+    <!--바로가기 메뉴 시작(tap키로 하는 접근성)-->
+    <ul class="hidden">
+        <li><a href="#">메뉴바로가기</a></li>
+        <li><a href="#">본문바로가기</a></li>
+        <li><a href="#">하단바로가기</a></li>
+    </ul>
+    <!--바로가기 메뉴 끝-->
+
+
+<!--상단영역 시작-->
+<div class="header_wrap">
+    <header class="header_main">
+        <h1 class="logo"><a href="index.html">SUJI</a></h1>
+        <!--<nav class="mainMenu">
+            <h2 class="hidden">메인메뉴</h2>
+            <ul class=mainMenu_list>
+                <li><a href="#;">MENU1</a></li>
+                <li><a href="#;">MENU2</a></li>
+            </ul>
+        </nav>-->
+    </header>
+</div>
+<!--상단영역 끝-->
+<!--// header -->
+<!--s: 비주얼 영역-->
+    <div class="container sub_p03">
+        <div class="contents">
+            <h1 class="tit_p03">
+                오픈API 신청정보
+                <a href="p03_03_01.html" class="btn_p03">다음페이지 이동</a>
+            </h1>
+			<div class="subSection_p03 openAPI_wrap1">
+				
+				<div class="titGrpArea_p03">
+                    <h2 class="subTlt_p03">기관 연계 정보</h2>
+					<a href="#" class="btn_p03 btnConfirm" title="새창열림">기관정보 연동</a>
+				</div>
+				<div class="secInr openAPI_divWrap">
+					<div class="tblW tblS openAPI_div">
+						<table class="tbl_p03 paddingSm opneAPI_table1">
+                            <colgroup>
+                                <col width="188">
+                                <col width="auto">
+                                <col width="188">
+                            </colgroup>
+							<caption>오픈 API 신청 기관명, 담당자, Email,코콤스ID, 기관코드 정보를 나타낸 표</caption>
+							<tbody>                               
+								 <tr>
+                                    <th class="title" scope="row" colspan="1">기관명</th>
+                                    <td colspan="3">주식회사 비욘드테크</td>
+                                </tr>
+                                <tr>
+                                    <th class="title" scope="row">담당자명</th>
+                                    <td>윤병선</td>
+                                    <th class="title" scope="row">E-MAIL</th>
+                                    <td>bsyoon@beyondtech.co.kr</td>
+                                </tr>
+                                <tr>
+                                    <th class="title" scope="row">코콤스ID</th>
+                                    <td>testadmin</td>
+                                    <th class="title" scope="row">기관코드</th>
+                                    <td>00001254632</td>
+                                </tr>
+							</tbody>
+
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="subSection_p03 openAPI_wrap2">
+				<h2 class="subTlt_p03">API 신청정보</h2>
+				<div class="tblW tblS opetbl_p03nAPI_divWrap2">
+					<table class="tbl_p03 paddingSm openAPI_table2">
+						<caption>API 신청 번호, API구분, 신청일자, 승인일자, 상태 정보를 나타낸 표</caption>
+						<colgroup>
+							<col>
+							<col>
+							<col>
+							<col>
+							<col>
+							<col>
+						</colgroup>
+						<thead>
+							<tr class="table_title">
+								<th class="num" scope="col">번호</th>
+								<th scope="col" >API 구분</th>
+								<th scope="col">신청일자</th>
+								<th scope="col">승인일자</th>
+								<th scope="col">상태</th>
+								<th scope="col"></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="table_text">
+								<td class="txtC num">1</td>
+								<td scope="col" class="txtL">저작물신고API</td>
+								<td scope="col" class="txtC">2022-01-22</td>
+								<td scope="col" class="txtC">2022-01-22</td>
+								<td scope="col" class="txtC">승인완료</a></td>
+								<td scope="col" class="txtC"><a href="" class="btn_p03 btnS" title="상세보기">상세보기</a></td>
+							</tr>
+							<tr class="table_text">
+								<td class="txtC num">2</td>
+								<td scope="col txtL">음악이용로그조회API</td>
+								<td scope="col" class="txtC">2022-01-22</td>
+								<td scope="col" class="txtC">2022-01-22</td>
+								<td scope="col" class="txtC">승인완료</a></td>
+								<td scope="col" class="txtC"><a href="" class="btn_p03 btnS" title="상세보기">상세보기</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+           
+			<div class="paging_p03">	
+	<ul class="num_list_p03"> 
+		<li class="first"><a href="#" title="처음페이지">처음</a></li>
+		<li class="prev"><a href="#" title="이전페이지">이전</a></li>
+		<li class="on"><a href="#"  title="현재페이지">1</a></li>
+		<li><a href="#">2</a></li>
+		<li><a href="#">3</a></li>
+		<li><a href="#">4</a></li>
+		<li><a href="#">5</a></li>
+		<li class="next"><a href="#" title="다음페이지">다음</a></li>
+		<li class="last"><a href="#" title="마지막페이지">마지막</a></li>
+	</ul>
+</div>
+
+            <div class="btnBox_p03">
+                <a href="../AG/DSC-AG-003-03-01.html" class="btn_p03 btnDefault rqsInqBtn">오픈 API 신청 바로가기</a>
+                <a href="" class="btn_p03 btnDefault rqsInqBtn">음악 이용로그 조회</a>
+            </div>
+		</div>
+    </div>
+</div>
+</body>
+</html>

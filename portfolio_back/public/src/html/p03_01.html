@@ -1,0 +1,144 @@
+<!--메인화면-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    @@include('@@webRoot/html/include/resource.html', {
+        "title" : "포트폴리오"
+    })
+</head>
+<body>
+<div class="wrap">
+<!-- header -->
+@@include('@@webRoot/html/include/header.html')
+<!--// header -->
+    <div class="container sub_p03">
+        <div class="contents">
+            <h1 class="tit_p03">
+                저작물신고 API
+                <a href="p03_02.html" class="btn_p03">다음페이지 이동</a>
+            </h1>
+            <div class="dataSchArea_p03">
+				<div class="ipGroup_p03">
+					<div class="schSel">
+						<select class="selBox_p03" title="검색조건 선택">
+							<option>전체</option>
+						</select>
+					</div>
+					<div class="schInp">
+						<input type="text" class="ipTxt_p03" title="검색어입력" placeholder="검색어를 입력하세요" />
+					</div>
+					<div class="schBtn">
+						<button type="button" title="검색조회" class="btn_p03 btnSearch">조회</button>
+					</div>
+				</div>
+			</div>
+            			<!-- PC 목록 노출 영역 -->
+			<div class="tblW tblS hide_pc">
+				<table class="tbl_p03 list">
+					<caption>테스트 테이블의 번호, 제목, 작성자, 작성일자, 첨부파일, 조회 정보를 제공합니다.</caption>
+					<colgroup>
+						<col width="90">
+						<col>
+						<col width="180">
+						<col width="120">
+						<col width="100">
+						<col width="100">
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col">번호</th>
+							<th scope="col">제목</th>
+							<th scope="col">작성자</th>
+							<th scope="col">작성일자</th>
+							<th scope="col">첨부파일</th>
+							<th scope="col">조회</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td class="txtL"><a href="#"><p class="ellipsis">법인사용자 한국저작권위원회 통합회원 One ID 서비스 통합 안내</p></a></td>
+							<td>한국저작권위원회</td>
+							<td>2021-04-14</td>
+							<td><img src="@@webRoot/resources/images/p03/ico/ico_attachFile.png" alt="첨부파일 이미지" title="파일첨부" /></td>
+							<td>701</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td class="txtL"><a href="#"><p class="ellipsis">2020년 11월 20일(금) 시스템 업데이트 작업 안내</p></a></td>
+							<td>한국저작권위원회</td>
+							<td>2021-04-14</td>
+							<td>&nbsp;</td>
+							<td>701</td>
+						</tr>
+						<tr>
+							<td>99999</td>
+							<td class="txtL"><a href="#"><p class="ellipsis">법인사용자 한국저작권위원회 통합회원 One ID 서비스 통합 안내</p></a></td>
+							<td>한국저작권위원회</td>
+							<td>2021-04-14</td>
+							<td>&nbsp;</td>
+							<td>243503</td>
+						</tr>
+						<tr>
+							<td colspan="6" class="noData">등록된 게시물이 없습니다.</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- //PC 목록 노출 영역 -->
+            			<!-- 모바일 목록 노출 영역 (PC목록 영역과 동일하게 데이터 넣어줘야함.)-->
+			<div class="mobileDispArea hide_mo">
+				<ul class="viewListMo">
+					<li>
+						<a href="#">
+							<p class="title">법인사용자 한국저작권위원회 통합회원 One ID 서비스 통합 안내</p>
+							<dl class="wrtInfo">
+								<dt>작성일</dt>
+								<dd>2021-04-14</dd>
+								<dt>작성자</dt>
+								<dd>한국저작권위원회</dd>
+								<dt>조회수</dt>
+								<dd>701</dd>
+							</dl>
+							<!-- 첨부파일 노출 영역 -->
+							<p class="file">첨부파일<img src="@@webRoot/resources/images/p03/ico/ico_attachFile.png" alt="첨부파일 이미지" title="파일첨부" /></p>
+							<!-- //첨부파일 노출 영역 -->
+						</a>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<p class="title">법인사용자 한국저작권위원회 통합회원 One ID 서비스 통합 안내</p>
+							<dl class="wrtInfo">
+								<dt>작성일</dt>
+								<dd>2021-04-14</dd>
+								<dt>작성자</dt>
+								<dd>한국저작권위원회</dd>
+								<dt>조회수</dt>
+								<dd>701</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<p class="title">법인사용자 한국저작권위원회 통합회원 One ID 서비스 통합 안내</p>
+							<dl class="wrtInfo">
+								<dt>작성일</dt>
+								<dd>2021-04-14</dd>
+								<dt>작성자</dt>
+								<dd>한국저작권위원회</dd>
+								<dt>조회수</dt>
+								<dd>701</dd>
+							</dl>
+						</a>
+					</li>
+				</ul>
+			</div>
+            @@include('@@webRoot/html/unit/paging_p03.html', {
+				'current' : '1'
+			})
+        </div>
+    </div>
+</div>
+</body>
+</html>

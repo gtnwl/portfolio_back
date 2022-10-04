@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon-search" transform="translate(-15 -11)">
+    <rect id="frame" width="24" height="24" transform="translate(15 11)" fill="none"/>
+    <g id="search" transform="translate(21.001 17.001)">
+      <path id="빼기_2" data-name="빼기 2" d="M11.144,12a.847.847,0,0,1-.605-.251L8.614,9.826A5.429,5.429,0,1,1,5.429,0a5.429,5.429,0,0,1,4.4,8.614l1.924,1.924a.858.858,0,0,1,0,1.212A.848.848,0,0,1,11.144,12ZM5.429,1.714a3.715,3.715,0,1,0,2.564,6.4.582.582,0,0,1,.059-.064l0,0,.008-.008a.428.428,0,0,1,.055-.047,3.717,3.717,0,0,0-2.69-6.279Z" transform="translate(-0.001 -0.001)" fill="#a2a2a2" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

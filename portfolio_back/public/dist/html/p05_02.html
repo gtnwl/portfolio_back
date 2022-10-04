@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title>테일러쉽</title>
+
+	<link rel="stylesheet" type="text/css" href="../resources/css/jquery-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="../resources/css/swiper-bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="../resources/css/common.css" />
+	<script src="../resources/js/lib/jquery-1.11.2.min.js"></script>
+	<script src="../resources/js/lib/jquery.ui.datepicker-ko.js"></script>
+	<script src="../resources/js/lib/jquery-ui.min.js"></script>
+	<script src="../resources/js/lib/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="../resources/js/common.js"></script>
+
+</head>
+
+<body>
+	<div class="wrap p_05">
+		<!-- header -->
+
+		<!--서브페이지 헤더-->
+		<header class="header_p05 subHeader_p05">
+			<div class="hInner_p05">
+				<div class="icon_p05W">
+					<a href="#" class="prevBtn"><i class="icon_L_p05 icon_back"><em class="hidden">뒤로가기</em></i></a>
+				</div>
+				<h2 class="headerTit_p05">견적입력</h2>
+			</div>
+		</header>
+		<!--// header -->
+		<div class="container_p05">
+			<div class="section_p05">
+				<div class="inner_p05">
+					<div class="titBox_p05">
+						<strong class="title_p05 medium_2">테일러샵 이름</strong>
+					</div>
+					<div class="btnBox_p05 btn_p05NextPage">
+						<a href="p05_03.html" class="btn_p05 btn_p05NextPage btn_p05No_border">업체 이름
+							<i class="icon_p05 icon_search_point"><em class="hidden">찾기</em></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="section_p05">
+				<div class="inner_p05">
+					<div class="titBox_p05">
+						<strong class="title_p05 medium_2">방문목적</strong>
+					</div>
+				</div>
+				<ul class="radiList_p05 typeIcon">
+					<li class="radioBox_p05">
+						<input type="radio" name="tailType" id="tBusiness">
+						<label for="tBusiness" class="iconLabel">
+							<div class="iconWrap_p05">
+								<i class="icon_p05 icon_L_p05 icon_business"></i>
+							</div>
+							<p>비즈니스</p>
+						</label>
+					</li>
+					<li class="radioBox_p05">
+						<input type="radio" name="tailType" id="tSuit" checked>
+						<label for="tSuit" class="iconLabel">
+							<div class="iconWrap_p05">
+								<i class="icon_p05 icon_L_p05 icon_suit_tie"></i>
+							</div>
+							<p>예복</p>
+						</label>
+					</li>
+					<li class="radioBox_p05">
+						<input type="radio" name="tailType" id="tWedding">
+						<label for="tWedding" class="iconLabel">
+							<div class="iconWrap_p05">
+								<i class="icon_p05 icon_L_p05 icon_dad"></i>
+							</div>
+							<p>혼주복</p>
+						</label>
+					</li>
+				</ul>
+				<section_p05 class="bg_v2">
+					<div class="inner_p05">
+						<div class="titBox_p05">
+							<strong class="title_p05 large">품목 1</strong>
+						</div>
+						<div class="titBox_p05">
+							<!--이자리에 토글 버튼 들어가야함 수정-->
+							<strong class="title_p05 medium_2">품목 선택</strong>
+							<div class="toggle_box_p05 toggle_box_p05_v2">
+								<input type="checkbox" class="custom_input_p05" id="custom_input1"></input>
+								<label for="custom_input1" class="toggle_btn_p05_label">
+									<p><span class="text1_p05">맞춤</span></p>
+									<p><span class="text2_p05">대여</span></p>
+								</label>
+							</div>
+						</div>
+						<div class="selectBox">
+							<button class="labelBtn_p05 point_color_p05" onclick="return ui.popup.open('#choice_1', this);">수트 (자켓+바지)</button>
+						</div>
+					</div>
+					<div class="inner_p05">
+						<div class="titBox_p05">
+							<strong class="title_p05 medium_2">원단 선택</strong>
+							<div class="chkList_p05">
+								<div class="chkBox_p05">
+									<input type="checkbox" name="open" id="open1">
+									<label for="open1">비스포크</label>
+								</div>
+							</div>
+						</div>
+						<div class="selectBox">
+							<button class="labelBtn_p05 point_color_p05" onclick="return ui.popup.open('#choice_2', this);">한국 (제일모직)</button>
+							<input type="text" class="ipTxt_p05" placeholder="선택사항 (예시: 제일모직 템테이션)">
+						</div>
+					</div>
+					<div class="inner_p05">
+						<div class="titBox_p05">
+							<strong class="title_p05 medium_2">단일가격</strong>
+							<div class="chkBox_p05 subTxtBox_p05 gap-10">
+								<input type="radio" name="open1" id="open2">
+								<label for="open2">모름</label>
+								<input type="radio" name="open1" id="open3">
+								<label for="open3">서비스</label>
+							</div>
+						</div>
+						<p class="position_p05">
+							<input type="text" class="ipTxt_p05 ipTxt_p05_v2">
+							<span>원</span>
+						</p>
+					</div>
+					<div class="inner_p05">
+						<div class="btnBox_p05 btnBox_p05_v2">
+							<button class="btn_p05 btn_p05Radius_2">품목추가
+								<i class="icon_p05 icon_plus"><em class="hidden">추가버튼</em></i>
+							</button>
+						</div>
+					</div>
+				</section_p05>
+				<section_p05>
+					<div class="inner_p05">
+						<div class="titBox_p05">
+							<strong class="title_p05 large">상담날짜</strong>
+						</div>
+
+						<p class="position_p05 ">
+							<input type="text" class="ipTxt_p05 ipTxt_p05_v3">
+							<button class="btn_p05 btn_p05No_border basic_color_p05">변경</button>
+						</p>
+					</div>
+					<div class="inner_p05">
+						<div class="titBox_p05">
+							<strong class="title_p05 large">방문경로</strong>
+						</div>
+
+						<div class="selectBox">
+							<button class="labelBtn_p05 point_color_p05" onclick="return ui.popup.open('#choice_3', this);">워킹</button>
+						</div>
+					</div>
+				</section_p05>
+			</div>
+			<div class="section_p05">
+				<div class="inner_p05">
+					<div class="titBox_p05">
+						<strong class="title_p05 medium_2">총금액</strong>
+						<div class="chkBox_p05 subTxtBox_p05 gap-10">
+							<input type="radio" name="open2" id="open4">
+							<label for="open4">현금결제</label>
+							<input type="radio" name="open2" id="open5">
+							<label for="open5">카드결제</label>
+						</div>
+					</div>
+					<p class="position_p05">
+						<input type="text" class="ipTxt_p05 ipTxt_p05_v2">
+						<span>원</span>
+					</p>
+				</div>
+			</div>
+			<div class="bottomArea_p05">
+				<div class="btnBox_p05">
+					<a href="p05_03.html" class="btn_p05 btn_p05Primary">다음페이지</a>
+				</div>
+			</div>
+		</div>
+		<div class="layerPopW_p05 alert" id="choice_1" role="dialog" aria-modal="true">
+			<div class="layerPopup_p05 layerPopup_p05_v2">
+				<div class="layerHeader_p05">
+					<h1 class="layerTit_p05">품목선택</h1>
+				</div>
+				<div class="layerCont_p05 write">
+					<ul class="layerContInner_p05">
+						<li class="optionItem_p05">
+							<input type="radio" id="choice1" name="choice">
+							<label for="choice1"><span>수트(자켓+바지)</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice2" name="choice">
+							<label for="choice2"><span>셔츠</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice3" name="choice">
+							<label for="choice3"><span>조끼</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice4" name="choice">
+							<label for="choice4"><span>코트</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice5" name="choice">
+							<label for="choice5"><span>아우터</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice6" name="choice">
+							<label for="choice6"><span>수제화</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice7" name="choice">
+							<label for="choice7"><span>넥타이</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice8" name="choice">
+							<label for="choice8"><span>부토니에</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice9" name="choice">
+							<label for="choice9"><span>서스펜더</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice10" name="choice">
+							<label for="choice10"><span>여성복</span></label>
+						</li>
+					</ul>
+					<!-- //layerContInner_p05 -->
+				</div>
+				<!-- //layerCont_p05 -->
+			</div>
+		</div>
+		<div class="layerPopW_p05 alert" id="choice_2" role="dialog" aria-modal="true">
+			<div class="layerPopup_p05 layerPopup_p05_v2">
+				<div class="layerHeader_p05">
+					<h1 class="layerTit_p05">원단선택</h1>
+				</div>
+				<div class="layerCont_p05 write">
+					<ul class="layerContInner_p05">
+						<li class="optionItem_p05">
+							<input type="radio" id="choice11" name="choice">
+							<label for="choice11"><span>한국 (제일모직)</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice12" name="choice">
+							<label for="choice12"><span>이태리 (발디니/다볼리/까노니코..)</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice13" name="choice">
+							<label for="choice13"><span>영국 (알프레드 브라운/허더스필드..)</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice14" name="choice">
+							<label for="choice14"><span>모름</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice15" name="choice">
+							<label for="choice15"><span>직접입력</span></label>
+						</li>
+					</ul>
+					<!-- //layerContInner_p05 -->
+				</div>
+				<!-- //layerCont_p05 -->
+			</div>
+		</div>
+		<!-- 여러개 선택시 레이아웃
+<div class="layerPopW_p05 alert" id="choice_3" role="dialog" aria-modal="true">
+    <div class="layerPopup_p05 layerPopup_p05_v2">
+        <div class="layerHeader_p05">
+            <h1 class="layerTit_p05">방문경로</h1>
+        </div>
+        <div class="layerCont_p05 write">
+            <ul class="layerContInner_p05">
+                <li class="optionItem_p05">워킹</li>
+                <li class="optionItem_p05">지인소개</li>
+                <li class="optionItem_p05">SNS</li>
+                <li class="optionItem_p05">인터넷검색</li>
+                <li class="optionItem_p05">연예인협찬</li>
+                <li class="optionItem_p05">직접입력</li>
+            </ul>
+             //layerContInner_p05 
+        </div>
+         //layerCont_p05 
+    </div>
+</div>
+-->
+		<div class="layerPopW_p05 alert" id="choice_3" role="dialog" aria-modal="true">
+			<div class="layerPopup_p05 layerPopup_p05_v2">
+				<div class="layerHeader_p05">
+					<h1 class="layerTit_p05">방문경로</h1>
+				</div>
+				<div class="layerCont_p05 write">
+					<ul class="layerContInner_p05">
+						<li class="optionItem_p05">
+							<input type="radio" id="choice16" name="choice">
+							<label for="choice16"><span>워킹</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice17" name="choice">
+							<label for="choice17"><span>지인소개</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice18" name="choice">
+							<label for="choice18"><span>SNS</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice19" name="choice">
+							<label for="choice19"><span>인터넷검색</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice20" name="choice">
+							<label for="choice20"><span>연예인협찬</span></label>
+						</li>
+						<li class="optionItem_p05">
+							<input type="radio" id="choice21" name="choice">
+							<label for="choice21"><span>직접입력</span></label>
+						</li>
+					</ul>
+					<!-- //layerContInner_p05 -->
+				</div>
+				<!-- //layerCont_p05 -->
+			</div>
+		</div>
+
+</body>
+
+</html>

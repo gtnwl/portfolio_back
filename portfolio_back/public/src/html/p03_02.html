@@ -1,0 +1,144 @@
+<!--메인화면-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    @@include('@@webRoot/html/include/resource.html', {
+        "title" : "포트폴리오"
+    })
+</head>
+<body>
+<div class="wrap">
+<!-- header -->
+@@include('@@webRoot/html/include/header.html')
+<!--// header -->
+<!--s: 비주얼 영역-->
+    <div class="container sub_p03">
+        <div class="contents">
+            <h1 class="tit_p03">
+                음악이용로그 API
+                <a href="p03_03.html" class="btn_p03">다음페이지 이동</a>
+            </h1>
+			<div class="subSection_p03 musicLogWrap1">
+				<div class="titGrpArea_p03">
+                    <h2 class="subTlt_p03">음악이용로그 조회</h2>
+				</div>
+				<div class="secInr">
+					<div class="tblW tblS musicLogDiv">
+						<table class="tbl_p03 paddingSm opneAPI_table1">
+                            <colgroup>
+                                <col width="188">
+                                <col width="auto">
+                                <col width="188">
+                            </colgroup>
+							<caption>오픈 API 신청 기관명, 담당자, Email,코콤스ID, 기관코드 정보를 나타낸 표</caption>
+							<tbody>
+                                <tr>
+                                    <th scope="row" colspan="1">
+                                        조회일자
+                                        <span class="apiStar">*</span>
+                                    </th>
+                                    <td colspan="3">
+                                        <div class="datepickerW_p03">
+											<input type="text" id="searchDate" name="datepicker" class="ipTxt_p03 datepicker_p03" title="신청일자 시작일 입력. 날짜형식:YYYY-MM-DD" placeholder="예) YYYY-MM-DD">								
+										</div>
+										<p class="apiText_p03">
+											<span>*</span>
+											음악이용로그 조회 기준일을 입력해주세요
+										</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        기관명
+                                    </th>
+                                    <td>
+                                        <input type="text" class="ipTxt_p03 readonlyInput_p03"  title="기관명" value="" readonly onfocus="this.blur()">
+                                    </td>
+                                    <th scope="row">
+                                        기관코드
+                                    </th>
+                                    <td>
+                                        <input type="text" class="ipTxt_p03 readonlyInput_p03"  title="기관명" value="" readonly onfocus="this.blur()">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" colspan="1">
+                                        APIKEY
+                                    </th>
+                                    <td colspan="3">
+                                        <input type="text" class="ipTxt_p03 readonlyInput_p03"  title="기관명" value="" readonly onfocus="this.blur()">
+                                    </td>
+                                </tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="btnBox_p03">
+						<button href="#" class="btn_p03">입력 초기화</a>
+						<button type="submit" class="btn_p03 btnConfirm">검색</button>
+					
+				</div>
+			</div>
+			<div class="subSection musicLogWrap2">
+				<h2 class="subTlt_p03">API 신청정보</h2>
+				<div class="tblW tblS musicLogDiv">
+					<table class="tbl_p03 paddingSm opneAPI_table1">
+						<caption>API 신청 번호, API구분, 신청일자, 승인일자, 상태 정보를 나타낸 표</caption>
+						<colgroup>
+							<col width="100">
+							<col width="120">
+							<col width="150">
+							<col width="200">
+							<col width="330">
+							<col width="100">
+							
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col">번호</th>
+								<th scope="col">일자</th>
+								<th scope="col">OSP명</th>
+								<th scope="col">서비스명</th>
+								<th scope="col">곡명</th>
+								<th scope="col">이용횟수</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="txtC">1</td>
+								<td class="txtC">2022-05-27</td>
+								<td class="txtC">FLO</td>
+								<td class="txtC">스트리밍</td>
+								<td class="txtL"><a href="#"><p class="ellipsis">내가 너를 사랑하지 않는다는 것은
+									망할 너의 친구들의 아이디어 같아</p></a></td>
+								<td class="txtC">65</td>
+							</tr>
+							<tr>
+								<td class="txtC">2</td>
+								<td class="txtC">2022-05-27</td>
+								<td class="txtC">YouTube Music</td>
+								<td class="txtC">스트리밍</td>
+								<td class="txtL"><a href="#"><p class="ellipsis">어느 날 머리에서 뿔이 자랐다</p></a></td>
+								<td class="txtC">94</td>
+							</tr>
+							<tr>
+								<td class="txtC">2</td>
+								<td class="txtC">2022-05-27</td>
+								<td class="txtC">YouTube Music</td>
+								<td class="txtC">스트리밍</td>
+								<td class="txtL"><a href="#"><p class="ellipsis">하루도 그대를 사랑하지 않은 적이 없었다</p></a></td>
+								<td class="txtC">879</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+           
+			@@include('@@webRoot/html/unit/paging_p03.html', {
+				'current' : '1'
+			})
+		</div>
+    </div>
+</div>
+</body>
+</html>

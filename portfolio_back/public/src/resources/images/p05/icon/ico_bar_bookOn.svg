@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Icon-ionic-md-book" transform="translate(-176 -2604)">
+    <rect id="frame" width="24" height="24" transform="translate(176 2604)" fill="none"/>
+    <path id="Icon_ionic-md-book" data-name="Icon ionic-md-book" d="M24.865,5.648,15.194,7.466,5.523,5.648A2,2,0,0,0,3.375,7.785V21.678c0,1.176.909,1.852,2.148,2.137l9.671,1.813,9.671-1.818c1.239-.284,2.148-.96,2.148-2.137V7.785A2,2,0,0,0,24.865,5.648Zm0,16.024L16.274,23.49V9.6l8.592-1.818ZM14.114,23.49,5.523,21.672V7.785L14.114,9.6Z" transform="translate(172.625 2600.373)" fill="#fff"/>
+  </g>
+</svg>

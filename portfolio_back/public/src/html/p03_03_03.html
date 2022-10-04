@@ -1,0 +1,77 @@
+<!--메인화면-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    @@include('@@webRoot/html/include/resource.html', {
+        "title" : "포트폴리오"
+    })
+</head>
+<body>
+<div class="wrap">
+<!-- header -->
+@@include('@@webRoot/html/include/header.html')
+<!--// header -->
+<!--s: 비주얼 영역-->
+    <div class="container sub_p03">
+        <div class="contents">
+            <h1 class="tit_p03">
+                오픈API 신청정보
+                <a href="@@webRoot/html/unit/popup/p03_pop01.html" class="btn_p03">팝업 페이지로 이동</a>
+            </h1>
+			
+			<div class="subSection openAPI03_wrap">
+				
+				<div class="titGrpArea_p03">
+                    <h2 class="subTlt_p03">API 정보 상세보기</h2>
+				</div>
+				<div class="secInr openAPI_divWrap">
+					<div class="tblW tblS openAPI_div">
+						<table class="tbl_p03 paddingSm opneAPI_table1">
+                            <colgroup>
+                                <col width="188">
+                                <col width="auto">
+                                <col width="188">
+                            </colgroup>
+							<caption>API구분, 상태, 담당자, 이메일, 신청일자, 승인일자, 이용시작일자, 이용종료일자, API KEY의 정보를 나타낸 표</caption>
+							<tbody>
+                                <tr>
+                                    <th scope="row">API 구분</th>
+                                    <td>API 구분</td>
+                                    <th scope="row">상태</th>
+                                    <td>승인완료</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">담당자</th>
+                                    <td>윤병선</td>
+                                    <th scope="row">E-MAIL</th>
+                                    <td>bsyoon@beyondtech.co.kr</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">신청일자</th>
+                                    <td>2022-01-22</td>
+                                    <th scope="row">승인일자</th>
+                                    <td>2022-01-22</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">이용시작일자</th>
+                                    <td>2022-01-22</td>
+                                    <th scope="row">이용종료일자</th>
+                                    <td>9999-12-31</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" colspan="1">API KEY</th>
+                                    <td colspan="3" class="copyArea"><button class="copyAreaBtn">copyCodecopyCodecopyCodecopyCodecopyCode</button></td>
+                                </tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+            <div class="btnBox_p03">
+                <a href="" class="btn_p03" title="목록 바로가기">목록</a>
+            </div>
+		</div>
+    </div>
+</div>
+</body>
+</html>

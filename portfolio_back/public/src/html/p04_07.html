@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    @@include('@@webRoot/html/include/resource.html', {
+        "title" : "전국공무원상조서비스"
+    })
+</head>
+<body>
+    <div class="wrap">
+        <!--s: header-->
+        @@include('@@webRoot/html/include/header_p04_01.html', {
+            "conTit" : "답례품 상세"
+        })
+        <!--e: header-->
+        <div class="container">
+            <!--s: contents-->
+            <div class="contents">
+                <h1 class="hidden">답례품 상세</h1>
+                <div class="inner_p04">
+                    <div class="list_p04 type1">
+                        <div class="item">
+                            <div class="itemBox_p04 midImg">
+                                <a href="p04.html" class="itemInner_p04">
+                                    <div class="imgWrap imgBorder">
+                                        <img src="@@webRoot/resources/images/p04/cont/gift.png" alt="근조화환 이미지">
+                                    </div>
+                                    <div class="itemTxtBox">
+                                        <p class="itemTit ellipsis2">상조앱 홈으로 돌아가기</p>
+                                        <span class="price">69,000원</span>
+                                    </div>
+                                </a>
+                                <p class="callBtn"><a href="tel:000-111-2222" class="btn_p04">전화문의</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="explnBox">
+                        <p class="title">상품 상세설명</p>
+                        <textarea class="expln" placeholder="상품 상세설명이 노출됩니다" readonly ></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

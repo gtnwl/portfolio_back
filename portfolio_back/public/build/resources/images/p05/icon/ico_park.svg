@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon-park" transform="translate(-35 -5027)">
+    <path id="Icon_awesome-parking" data-name="Icon awesome-parking" d="M17.857,2.25H2.143A2.143,2.143,0,0,0,0,4.393V20.107A2.143,2.143,0,0,0,2.143,22.25H17.857A2.143,2.143,0,0,0,20,20.107V4.393A2.143,2.143,0,0,0,17.857,2.25ZM10.714,15.107H8.571V17.25a.716.716,0,0,1-.714.714H6.429a.716.716,0,0,1-.714-.714v-10a.716.716,0,0,1,.714-.714h4.286a4.286,4.286,0,1,1,0,8.571Zm0-5.714H8.571V12.25h2.143a1.429,1.429,0,0,0,0-2.857Z" transform="translate(37 5026.75)" fill="#a2a2a2"/>
+    <rect id="사각형_1916" data-name="사각형 1916" width="24" height="24" transform="translate(35 5027)" fill="none"/>
+  </g>
+</svg>

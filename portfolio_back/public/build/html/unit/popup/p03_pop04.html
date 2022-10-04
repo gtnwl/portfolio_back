@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<title>포트폴리오</title>
+
+<link rel="stylesheet" type="text/css" href="../../../resources/css/jquery-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="../../../resources/css/swiper-bundle.min.css" />
+<link rel="stylesheet" type="text/css" href="../../../resources/css/common.css" />
+<script src="../../../resources/js/lib/jquery-1.11.2.min.js"></script>
+<script src="../../../resources/js/lib/jquery.ui.datepicker-ko.js"></script>
+<script src="../../../resources/js/lib/jquery-ui.min.js"></script>
+<script src="../../../resources/js/lib/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="../../../resources/js/common.js"></script>
+
+    </head>
+<body>
+    <div class="popup_03 full">
+        <section class="snsPop_p03 other">
+            <div class="snsPopInnerWrap_p03">
+                <h2 class="headerTitle">
+                    인증서 처리방법 선택
+                </h2>
+                <p class="headerText">인증서 처리를 위한 방법을 선택해 주세요.</p>
+                <div class="snsPopListWrap_p03"><!--인증 종류-->
+                    <ul class="snsPopList_p03">
+                        <li>
+                            <input id="snsPop1" type="radio" name="radio">
+                            <label for="snsPop1">
+                                <div class="snsPopImgWrap_p03">
+                                    <p class="text">범용인증서</p>
+                                    <span class="img"><img src="../../../resources/images/p03/snsPopup/img-certification.png" alt="범용인증서"></span>
+                                </div>
+                            </label>
+
+                        </li>
+                        <li>
+                            <input id="snsPop2" type="radio" name="radio">
+                            <label for="snsPop2">
+                                <div class="snsPopImgWrap_p03">
+                                    <p class="text">PASS 인증서</p>
+                                    <span class="img"><img src="../../../resources/images/p03/snsPopup/img-pass.png" alt="카카오톡"></span>
+                                </div>
+                            </label>
+                            
+                        </li>
+                        <li>
+                            <input id="snsPop3" type="radio" name="radio">
+                            <label for="snsPop3">
+                                <div class="snsPopImgWrap_p03">
+                                    <p class="text">카카오톡</p>
+                                    <span class="img"><img src="../../../resources/images/p03/snsPopup/img-kakao.png" alt="카카오톡"></span>
+                                </div>
+                            </label>
+                            
+                        </li>
+                        <li>
+                            <input id="snsPop4" type="radio" name="radio">
+                            <label for="snsPop4">
+                                <div class="snsPopImgWrap_p03">
+                                    <p class="text">네이버</p>
+                                    <span class="img"><img src="../../../resources/images/p03/snsPopup/img-naver.png" alt="네이버"></span>
+                                </div>
+                            </label>
+                            
+                        </li>
+                    </ul>
+                </div>
+                <div class="snsPopInfoWrap_p03">
+                    <div class="snsPopInfoListWrap_p03">
+                        <div class="snsPopInfoList">
+                            <form method="post" class="formWrap" name="formWrap">
+                                <table class="snsPopTable_p03">
+                                    <colgroup>
+                                        <col class="colWidth">
+                                        <col class="colWrap">
+                                    </colgroup>
+                                    <tr>
+                                        <th>
+                                            <label for="snsPopName">
+                                                이름
+                                            </label>
+                                        </th>
+                                        <td>
+                                            <input type="text" id="snsPopName" class="snsPopWrite" placeholder="홍길동" title="이름 입력">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label for="snsPopBrthd">
+                                                생년월일
+                                            </label>
+                                        </th>
+                                        <td>
+                                            <input type="text" id="snsPopBrthd" class="snsPopWrite" placeholder="19990101" title="생년월일 입력">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <label for="snsPopNum">
+                                                휴대폰번호
+                                            </label>
+                                        </th>
+                                        <td>
+                                            <select name="snsPopNum" class="selBox_p03" id="snsPopNum" title="휴대폰번호 앞자리 선택">
+                                                <option value="010" selected="">
+                                                    010
+                                                </option>
+                                                <option value="011">
+                                                    011
+                                                </option>
+                                                <option value="016">
+                                                    016
+                                                </option>
+                                                <option value="017">
+                                                    017
+                                                </option>
+                                                <option value="018">
+                                                    018
+                                                </option>
+                                                <option value="019">
+                                                    019
+                                                </option>
+                                            </select>
+                                            <input type="text" class="snsPopWrite snsPhoneWrite" placeholder="12345678" title="휴대폰번호 입력">
+                                        </td>
+                                    </tr>
+
+                                    <!--s: 통신사 들어가는 영역-->
+                                    <tr>
+                                        <th>
+                                            <label for="snsPopNum">
+                                                휴대폰번호
+                                            </label>
+                                        </th>
+                                        <td>
+                                            <select name="snsPopNum" class="selBox_p03 snsPopNum" id="snsPopNum" title="통신사 선택">
+                                                <option value="LG U+" selected>LG U+</option>
+                                                <option value="KT">KT
+                                                </option>
+                                                <option value="SKT">
+                                                    SKT
+                                                </option>
+                                            </select>
+                                            <select name="snsPopNum" class="selBox_p03" id="snsPopNum" title="휴대폰번호 앞자리 선택">
+                                                <option value="010" selected>010</option>
+                                                <option value="011">011</option>
+                                                <option value="016">016</option>
+                                                <option value="017">017</option>
+                                                <option value="018">018</option>
+                                                <option value="019">019</option>
+                                            </select>
+                                            <input type="text" class="snsPopWrite snsPhoneWrite newsAgency" placeholder="12345678" title="휴대폰번호 입력">
+                                        </td>
+                                    </tr>
+                                    <!--e: 통신사 들어가는 영역-->
+                                </table>
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+                <div class="snsPopServiceWrap_p03">
+                    <p class="title">서비스 이용에 대한 동의</p>
+                    <div class="snsPopService_p03">
+                        <div class="serviceCheckbox">
+                            <input type="checkbox" name="snsPopServiceText" id="snsPopServiceText">
+                            <label for="snsPopServiceText">
+                                제3자정보제공동의(필수)
+                            </label>
+                        </div>
+                        <div id="snsPopDetailBtn" class="serviceBtnWrap">
+                            <button id="btn" class="btn_p03">
+                                자세히보기
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btnBox_p03 popBtn_p03">
+                <a href="../../../html/unit/popup/p03_pop05.html" class="btn_p03">
+                    다음팝업
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

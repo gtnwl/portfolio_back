@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27">
+    <defs>
+        <filter id="q30wr2yqaa">
+            <feFlood flood-color="red" flood-opacity="1" result="floodOut"/>
+            <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut"/>
+            <feBlend in="compOut" in2="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g filter="url(#q30wr2yqaa)"/>
+    <path stroke="#999" stroke-width="2" fill="none" d="m18.987 4.37-8.271 8.629 8.271 8.63"/>
+</svg>

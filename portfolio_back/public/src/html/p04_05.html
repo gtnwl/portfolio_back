@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    @@include('@@webRoot/html/include/resource.html', {
+        "title" : "전국공무원상조서비스"
+    })
+
+</head>
+
+<body>
+    <div class="wrap">
+        <!--s: header-->
+        @@include('@@webRoot/html/include/header_p04.html', {
+        "conTit" : "부고 만들기"
+        })
+        <!--e: header-->  
+        <div class="container">
+            <!--s: contents-->
+            <div class="contents">
+                <h1 class="hidden">부고 만들기 페이지</h1>
+                <div class="inner_p04">
+                    <ul class="bugoMakeList">
+                        <li>
+                            <p class="title">대표상주</p>
+                            <div class="bugoInner">
+                                <div class="comboBox_p04">
+                                    <input type="text" class="ipTxt_p04" placeholder="고안과의 관계 선택"/>
+                                    <select class="selBox_p04">
+                                        <option selected>고인과의 관계 선택</option>
+                                        <option value="아들">아들</option>
+                                        <option value="며느리">며느리</option>
+                                        <option value="딸">딸</option>
+                                        <option value="사위">사위</option>
+                                        <option value="배우자">배우자</option>
+                                        <option value="손">손</option>
+                                        <option value="손자">손자</option>
+                                        <option value="손녀">손녀</option>
+                                        <option value="손부">손부</option>
+                                        <option value="손서">손서</option>
+                                        <option value="외손자">외손자</option>
+                                        <option value="외손부">외손부</option>
+                                        <option value="외손녀">외손녀</option>
+                                        <option value="외손서">외손서</option>
+                                        <option value="상주">상주</option>
+                                        <option value="직접입력">직접입력</option>
+                                    </select>
+                                </div>
+                                <div class="comboBox_p04">
+                                    <input type="text" class="ipTxt_p04 " placeholder="대표상주명 입력" />
+                                    <input type="text" class="ipTxt_p04 " placeholder="01011112222" />
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="title">부의금 계좌정보</p>
+                            <div class="bugoInner">
+                                <input type="text" class="ipTxt_p04 " placeholder="은행 선택" disabled/>
+                                <div class="comboBox_p04">
+                                    <select class="selBox_p04">
+                                        <option selected>은행선택</option>
+                                        <option value="국민은행">국민은행</option>
+                                        <option value="우리은행">우리은행</option>
+                                        <option value="하나은행">하나은행</option>
+                                        <option value="신한은행">신한은행</option>
+                                    </select>
+                                    <input type="text" class="ipTxt_p04 " placeholder="계좌주"/>
+                                </div>
+                                <input type="text" class="ipTxt_p04" placeholder="계좌번호 입력"/>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="infoAdd title">
+                                <p>상주추가</p>
+                                <button class="btn_p04">추가</button>
+                            </div>
+                            <div class="bugoInner">
+                                <div class="comboBox_p04">
+                                    <input type="text" class="ipTxt_p04 left" placeholder="고인과의 관계 선택"/>
+                                    <button class="btn_p04 delete">삭제</button>
+                                </div>
+                                <div>
+                                    <select class="selBox_p04">
+                                        <option selected>고인과의 관계 선택</option>
+                                        <option value="아들">아들</option>
+                                        <option value="며느리">며느리</option>
+                                        <option value="딸">딸</option>
+                                        <option value="사위">사위</option>
+                                        <option value="배우자">배우자</option>
+                                        <option value="손">손</option>
+                                        <option value="손자">손자</option>
+                                        <option value="손녀">손녀</option>
+                                        <option value="손부">손부</option>
+                                        <option value="손서">손서</option>
+                                        <option value="외손자">외손자</option>
+                                        <option value="외손부">외손부</option>
+                                        <option value="외손녀">외손녀</option>
+                                        <option value="외손서">외손서</option>
+                                        <option value="상주">상주</option>
+                                        <option value="직접입력">직접입력</option>
+                                    </select>
+                                    <!-- 문구 직접 입력 시 -->
+                                    <!-- <input type="text" class="ipTxt_p04 self" placeholder="직접입력"> -->
+                                    <!-- //문구 직접 입력 시 -->
+                                </div>
+                                <div class="comboBox_p04">
+                                    <input type="text" class="ipTxt_p04 " placeholder="홍길동" />
+                                    <input type="text" class="ipTxt_p04 " placeholder="01011112222" />
+                                </div>
+                            </div>
+                            <p class="title add">부의금 계좌정보</p>
+                            <div class="bugoInner">
+                                <input type="text" class="ipTxt_p04 " placeholder="은행을 선택하세요" disabled/>
+                                <div class="comboBox_p04">
+                                    <select class="selBox_p04">
+                                        <option selected>은행선택</option>
+                                        <option value="국민은행">국민은행</option>
+                                        <option value="우리은행">우리은행</option>
+                                        <option value="하나은행">하나은행</option>
+                                        <option value="신한은행">신한은행</option>
+                                    </select>
+                                    <input type="text" class="ipTxt_p04 " placeholder="계좌주"/>
+                                </div>
+                                <input type="text" class="ipTxt_p04" placeholder="계좌번호를 입력하세요"/>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="title">장례식장 정보</p>
+                            <div class="comboBox_p04">
+                                <button class="popUpBtn1 btn_p04" type="button" onclick="return ui.popup.open('#bugoMake', this);">장례식장 선택</button>
+                                <input type="text" class="ipTxt_p04" placeholder="호실을 입력하세요">
+                            </div>
+                        </li>
+                        <li>
+                            <p class="title">고인 정보</p>
+                            <div class="bugoInner">	
+                                <input type="text" class=" ipTxt_p04" placeholder="고인 성함 입력">
+                                <div class="comboBox_p04">
+                                    <p class="ageBox"><input type="text" class="ipTxt_p04" placeholder="나이"><span>세</span></p>
+                                    <select class="selBox_p04">
+                                        <option selected>성별선택</option>
+                                        <option value="남">남</option>
+                                        <option value="여">여</option>
+                                    </select>	
+                                </div>	
+							
+                            </div>
+                        </li>
+                        <li>
+                            <p class="title">임종일시</p>
+                            <div class="comboBox_p04">
+                                <input type="text" class="datepicker_p04 ipTxt_p04" placeholder="0000-00-00">
+                                <select class="selBox_p04">
+                                        <option value="">00</option>
+                                        <option value="">01</option>
+                                        <option value="">02</option>
+                                        <option value="">03</option>
+                                        <option value="">04</option>
+                                        <option value="">05</option>
+                                        <option value="">06</option>
+                                        <option value="">07</option>
+                                        <option value="">08</option>
+                                        <option value="">09</option>
+                                        <option value="">10</option>
+                                        <option value="">11</option>
+                                        <option value="">12</option>
+                                        <option value="">13</option>
+                                        <option value="">14</option>
+                                        <option value="">15</option>
+                                        <option value="">16</option>
+                                        <option value="">17</option>
+                                        <option value="">18</option>
+                                        <option value="">19</option>
+                                        <option value="">20</option>
+                                        <option value="">21</option>
+                                        <option value="">22</option>
+                                        <option value="">23</option>	
+                                </select>
+                                <select class="selBox_p04">
+                                        <option value="">00</option>
+                                        <option value="">05</option>
+                                        <option value="">10</option>
+                                        <option value="">15</option>
+                                        <option value="">20</option>
+                                        <option value="">25</option>
+                                        <option value="">30</option>
+                                        <option value="">35</option>
+                                        <option value="">40</option>
+                                        <option value="">45</option>
+                                        <option value="">50</option>
+                                        <option value="">55</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="title">발인일시</p>
+                            <div class="comboBox_p04">
+                                <input type="text" class="datepicker_p04 ipTxt_p04" placeholder="0000-00-00">
+                                <select class="selBox_p04">
+                                        <option value="">00</option>
+                                        <option value="">01</option>
+                                        <option value="">02</option>
+                                        <option value="">03</option>
+                                        <option value="">04</option>
+                                        <option value="">05</option>
+                                        <option value="">06</option>
+                                        <option value="">07</option>
+                                        <option value="">08</option>
+                                        <option value="">09</option>
+                                        <option value="">10</option>
+                                        <option value="">11</option>
+                                        <option value="">12</option>
+                                        <option value="">13</option>
+                                        <option value="">14</option>
+                                        <option value="">15</option>
+                                        <option value="">16</option>
+                                        <option value="">17</option>
+                                        <option value="">18</option>
+                                        <option value="">19</option>
+                                        <option value="">20</option>
+                                        <option value="">21</option>
+                                        <option value="">22</option>
+                                        <option value="">23</option>											
+                                </select>
+                                <select class="selBox_p04">
+                                        <option value="">00</option>
+                                        <option value="">05</option>
+                                        <option value="">10</option>
+                                        <option value="">15</option>
+                                        <option value="">20</option>
+                                        <option value="">25</option>
+                                        <option value="">30</option>
+                                        <option value="">35</option>
+                                        <option value="">40</option>
+                                        <option value="">45</option>
+                                        <option value="">50</option>
+                                        <option value="">55</option>										
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="title">장지</p>
+                            <div class="orderInner">
+                                <input type="text" class="ipTxt_p04" placeholder="장지 입력">
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    <!-- footer -->
+                    <div class="btnBox_p04 other">
+                        <button class="btn_p04 btn_p04Pnt" onclick="return ui.popup.open('#giftPop', this);">저장</button>
+                    </div>
+                    <!-- //footer -->
+                </div>
+            </div>
+            <!--e: contents-->
+        </div>
+
+        
+        
+     
+
+    </div>
+</body>
+<!--s: 장례식장 선택 팝업-->
+@@include('@@webRoot/html/unit/popup/p04_pop04.html')
+   <!--e: 장례식장 선택 팝업-->
+
+<!--s: 답례품 팝업-->
+@@include('@@webRoot/html/unit/popup/p04_pop05.html')
+<!--e: 답례품 팝업-->
+
+</html>

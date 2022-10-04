@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    @@include('@@webRoot/html/include/resource.html', {
+        "title" : "테일러쉽"
+    })
+</head>
+<body>
+    <div class="wrap bg_white p_05">
+    <!-- header -->
+    @@include('@@webRoot/html/include/header_p05_01.html',{
+        conTit:'테일러쉽 탈퇴'
+    })
+    <!--// header -->
+    <div class="container_p05">
+        <div class="section_p05">
+            <div class="inner_p05">
+            <div class="titBox_p05">
+                <strong class="title_p05 large_4 point_color_p05" >탈퇴하시는 이유가 무엇인가요?</strong>
+            </div>
+            
+                <ul class="layerContInner_p05_v2">
+                    <li class="optionItem_p05">
+                        <input type="radio" id="choice1" name="choice">
+                        <label for="choice1"><span class="title_p05 medium_2 point_color_p05">한시적 목적으로 사용했어요</span></label>
+                    </li>
+                    <li class="optionItem_p05">
+                        <input type="radio" id="choice2" name="choice">
+                        <label for="choice2"><span class="title_p05 medium_2 point_color_p05">서비스 이용이 불편합니다</span></label>
+                    </li>
+                    <li class="optionItem_p05">
+                        <input type="radio" id="choice3" name="choice">
+                        <label for="choice3"><span class="title_p05 medium_2 point_color_p05">개인 정보 및 보안이 우려됩니다</span></label>
+                    </li>
+                    <li class="optionItem_p05">
+                        <input type="radio" id="choice4" name="choice">
+                        <label for="choice4"><span class="title_p05 medium_2 point_color_p05">푸시, 알림이 많이 옵니다</span></label>
+                    </li>
+                    <li class="optionItem_p05">
+                        <input type="radio" id="choice5" name="choice">
+                        <label for="choice5"><span class="title_p05 medium_2 point_color_p05">임시 비활성화 (새 계정 사용 예정)</span></label>
+                    </li>
+                    <li class="optionItem_p05">
+                        <input type="radio" id="choice6" name="choice">
+                        <label for="choice6"><span class="title_p05 medium_2 point_color_p05">유용하지 않습니다</span></label>
+                    </li>
+                    <li class="optionItem_p05">
+                        <input type="radio" id="choice7" name="choice">
+                        <label for="choice7"><span class="title_p05 medium_2 point_color_p05">타 브랜드의 유사서비스 이용</span></label>
+                    </li>
+                    <li class="optionItem_p05">
+                        <input type="radio" id="choice8" name="choice">
+                        <label for="choice8"><span class="title_p05 medium_2 point_color_p05">가입 시 생각했던 서비스와 다른 것 같아요</span></label>
+                    </li>
+                    <li class="optionItem_p05 "  onclick="return ui.popup.open('#out', this);">
+                        <input type="radio" id="choice9" name="choice">
+                        <label for="choice9"><span class="title_p05 medium_2 point_color_p05">항목에 없음 (직접 입력)</span></label>
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="btnBox_p05 full">
+                <a href="p05_10.html" class="btn_p05 btn_p05No_border basic_color_p05 text medium_3">다음페이지</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    @@include('@@webRoot/html/unit/popup/p05_pop03.html')
+</body>
+</html>

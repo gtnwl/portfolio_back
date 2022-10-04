@@ -1,0 +1,274 @@
+.main{
+    .slideExpln{
+        li{
+            color: white;
+            margin-top: 10px;
+        }
+    }
+    img{
+        object-fit: cover;
+        width: 100%;
+    }
+}
+.title_main{
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 45px;
+    word-break: keep-all;
+    padding-bottom: 20px;
+}
+.visualWrap{
+    width: 100%;
+    height: 775px;
+    position: relative;
+    left: 0px;
+    top:0px;
+    margin-bottom: 45px;
+}
+.textWrap{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+
+    p{
+        color: aliceblue;
+    }
+}
+.container{
+    width: 100%;
+    height: calc(100vh - 91px);
+}
+.contents{
+    width: 100%;
+    
+    height: 100%;
+
+    &.index{
+       // height: 100vh;
+    }
+}
+
+.introTitle{
+    max-width: 1200px;
+    margin:0px auto;
+    padding-bottom: 43px;
+    .title{
+        font-size: 15px;
+        position: relative;
+        left: 0px;
+        top:0px;
+        color: #FFFFFF;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 100px;
+            top:50%;
+            transform: translateY(-50%);
+            width: 78px;
+            height: 1px;
+            background-color: #FFFFFF;
+        }
+    }
+    .text{
+        display: block;
+        font-size: 13px;
+        color:#868686;
+        margin-top: 10px;
+    }
+}
+.slideBox{
+    width: 100%;
+}
+.slideIndex{
+    width: 1200px;
+    margin:0px auto;
+
+    .text{
+        font-size: 36px;
+        color:#6C6C6C;
+    }
+    .num{
+        font-size: 96px;
+        color:#FFFFFF;
+    }
+}
+.slideImgBoxList{
+    height: 689px;
+}
+.slideImgWrap{
+    display: flex;
+    justify-content: space-between;
+
+    .imgBox{
+        width: 52.68%;
+        border: solid 1px #FFFFFF;
+        box-sizing: border-box;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+       
+    }
+    
+}
+.slideExpln{
+    width: 42.32%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+
+    p{
+        color:#FFFFFF;
+        word-break: keep-all;
+        line-height: 24px;
+
+    }
+    p+p{
+        margin-top: 40px;
+    }
+}
+
+
+
+/*스와이퍼 css*/
+.swiper-pagination{
+    color: #FFFFFF;
+    text-align: left;
+    position: relative;
+    top: 0px;
+    left: 0px;
+   padding-bottom: 15px;
+    
+}
+.swiper-pagination{
+    padding-left: 16px;
+    font-size: 36px;
+    color: #6C6C6C;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.swiper-pagination-current{
+    display: inline-block;
+    font-size: 72px;
+    color: #FFFFFF;
+    padding-right: 10px;
+}
+
+
+.logo{
+    width: 162px;
+    a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        color:white;
+        font:normal 47px 'Oswald';
+        text-align: left;
+    }
+}
+.mainMenu{
+    .mainMenu_list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        min-width: 195px;
+        justify-content: space-evenly;
+
+        li{
+            a{
+                text-align: center;
+                font:normal 16px 'Oswald';
+                color:white;
+            }
+        }
+    }
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next,.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+}
+
+@media screen and (max-width : 800px) {
+    .wrap{
+        &.main{
+            .slideImgBoxList{
+                height:calc(100vh - 204px)
+            }
+            .slideImgWrap{
+                flex-direction: column;
+                justify-content: flex-start;
+
+                div+div{
+                    padding-top: 40px;
+                }
+                .imgBox{
+                    width: 100%;
+                }
+            }
+            .swiper-pagination-current{
+                font-size: 40px;
+            }
+            .swiper-pagination{
+                font-size: 20px;
+            }
+            .introTitle{
+                padding-bottom: 20px;
+            }
+            .slideExpln{
+                width: 100%;
+                overflow-y: auto;
+
+                p+p{
+                    margin-top: 0px;
+                    padding-left: 10px;
+                }
+            }
+            strong{
+                font-size: 30px;
+            }
+            .textBox{
+                display: flex;
+                *{
+                    flex: 1;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+            }
+            .btnBox{
+                &.fixed_v2{
+                    position: relative;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
+@media screen and (max-width : 525px) {
+    .logo{
+        a{
+            font-size: 30px;
+        }
+    }
+    .wrap{
+        &.main{
+            .mainMenu{
+                .mainMenu_list{
+                    li{
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

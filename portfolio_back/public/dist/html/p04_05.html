@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title>전국공무원상조서비스</title>
+
+	<link rel="stylesheet" type="text/css" href="../resources/css/jquery-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="../resources/css/swiper-bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="../resources/css/common.css" />
+	<script src="../resources/js/lib/jquery-1.11.2.min.js"></script>
+	<script src="../resources/js/lib/jquery.ui.datepicker-ko.js"></script>
+	<script src="../resources/js/lib/jquery-ui.min.js"></script>
+	<script src="../resources/js/lib/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="../resources/js/common.js"></script>
+
+
+</head>
+
+<body>
+	<div class="wrap">
+		<!--s: header-->
+		<header class="header_p04 subHeader">
+			<div class="hInner_p04">
+				<div class="icon_p04W">
+					<a href="#" class="prevBtn"><i class="ico_p04 ico_goBack">뒤로가기</i></a>
+				</div>
+				<h2 class="headerTit_p04 ">부고 만들기</h2>
+				<div class="icon_p04W">
+					<a href="index.html"><i class="ico_p04 ico_home"><em class="hidden">홈버튼</em></i></a>
+				</div>
+			</div>
+		</header>
+		<!--e: header-->
+		<div class="container">
+			<!--s: contents-->
+			<div class="contents">
+				<h1 class="hidden">부고 만들기 페이지</h1>
+				<div class="inner_p04">
+					<ul class="bugoMakeList">
+						<li>
+							<p class="title">대표상주</p>
+							<div class="bugoInner">
+								<div class="comboBox_p04">
+									<input type="text" class="ipTxt_p04" placeholder="고안과의 관계 선택" />
+									<select class="selBox_p04">
+										<option selected>고인과의 관계 선택</option>
+										<option value="아들">아들</option>
+										<option value="며느리">며느리</option>
+										<option value="딸">딸</option>
+										<option value="사위">사위</option>
+										<option value="배우자">배우자</option>
+										<option value="손">손</option>
+										<option value="손자">손자</option>
+										<option value="손녀">손녀</option>
+										<option value="손부">손부</option>
+										<option value="손서">손서</option>
+										<option value="외손자">외손자</option>
+										<option value="외손부">외손부</option>
+										<option value="외손녀">외손녀</option>
+										<option value="외손서">외손서</option>
+										<option value="상주">상주</option>
+										<option value="직접입력">직접입력</option>
+									</select>
+								</div>
+								<div class="comboBox_p04">
+									<input type="text" class="ipTxt_p04 " placeholder="대표상주명 입력" />
+									<input type="text" class="ipTxt_p04 " placeholder="01011112222" />
+								</div>
+							</div>
+						</li>
+						<li>
+							<p class="title">부의금 계좌정보</p>
+							<div class="bugoInner">
+								<input type="text" class="ipTxt_p04 " placeholder="은행 선택" disabled />
+								<div class="comboBox_p04">
+									<select class="selBox_p04">
+										<option selected>은행선택</option>
+										<option value="국민은행">국민은행</option>
+										<option value="우리은행">우리은행</option>
+										<option value="하나은행">하나은행</option>
+										<option value="신한은행">신한은행</option>
+									</select>
+									<input type="text" class="ipTxt_p04 " placeholder="계좌주" />
+								</div>
+								<input type="text" class="ipTxt_p04" placeholder="계좌번호 입력" />
+							</div>
+						</li>
+						<li>
+							<div class="infoAdd title">
+								<p>상주추가</p>
+								<button class="btn_p04">추가</button>
+							</div>
+							<div class="bugoInner">
+								<div class="comboBox_p04">
+									<input type="text" class="ipTxt_p04 left" placeholder="고인과의 관계 선택" />
+									<button class="btn_p04 delete">삭제</button>
+								</div>
+								<div>
+									<select class="selBox_p04">
+										<option selected>고인과의 관계 선택</option>
+										<option value="아들">아들</option>
+										<option value="며느리">며느리</option>
+										<option value="딸">딸</option>
+										<option value="사위">사위</option>
+										<option value="배우자">배우자</option>
+										<option value="손">손</option>
+										<option value="손자">손자</option>
+										<option value="손녀">손녀</option>
+										<option value="손부">손부</option>
+										<option value="손서">손서</option>
+										<option value="외손자">외손자</option>
+										<option value="외손부">외손부</option>
+										<option value="외손녀">외손녀</option>
+										<option value="외손서">외손서</option>
+										<option value="상주">상주</option>
+										<option value="직접입력">직접입력</option>
+									</select>
+									<!-- 문구 직접 입력 시 -->
+									<!-- <input type="text" class="ipTxt_p04 self" placeholder="직접입력"> -->
+									<!-- //문구 직접 입력 시 -->
+								</div>
+								<div class="comboBox_p04">
+									<input type="text" class="ipTxt_p04 " placeholder="홍길동" />
+									<input type="text" class="ipTxt_p04 " placeholder="01011112222" />
+								</div>
+							</div>
+							<p class="title add">부의금 계좌정보</p>
+							<div class="bugoInner">
+								<input type="text" class="ipTxt_p04 " placeholder="은행을 선택하세요" disabled />
+								<div class="comboBox_p04">
+									<select class="selBox_p04">
+										<option selected>은행선택</option>
+										<option value="국민은행">국민은행</option>
+										<option value="우리은행">우리은행</option>
+										<option value="하나은행">하나은행</option>
+										<option value="신한은행">신한은행</option>
+									</select>
+									<input type="text" class="ipTxt_p04 " placeholder="계좌주" />
+								</div>
+								<input type="text" class="ipTxt_p04" placeholder="계좌번호를 입력하세요" />
+							</div>
+						</li>
+						<li>
+							<p class="title">장례식장 정보</p>
+							<div class="comboBox_p04">
+								<button class="popUpBtn1 btn_p04" type="button" onclick="return ui.popup.open('#bugoMake', this);">장례식장 선택</button>
+								<input type="text" class="ipTxt_p04" placeholder="호실을 입력하세요">
+							</div>
+						</li>
+						<li>
+							<p class="title">고인 정보</p>
+							<div class="bugoInner">
+								<input type="text" class=" ipTxt_p04" placeholder="고인 성함 입력">
+								<div class="comboBox_p04">
+									<p class="ageBox"><input type="text" class="ipTxt_p04" placeholder="나이"><span>세</span></p>
+									<select class="selBox_p04">
+										<option selected>성별선택</option>
+										<option value="남">남</option>
+										<option value="여">여</option>
+									</select>
+								</div>
+
+							</div>
+						</li>
+						<li>
+							<p class="title">임종일시</p>
+							<div class="comboBox_p04">
+								<input type="text" class="datepicker_p04 ipTxt_p04" placeholder="0000-00-00">
+								<select class="selBox_p04">
+									<option value="">00</option>
+									<option value="">01</option>
+									<option value="">02</option>
+									<option value="">03</option>
+									<option value="">04</option>
+									<option value="">05</option>
+									<option value="">06</option>
+									<option value="">07</option>
+									<option value="">08</option>
+									<option value="">09</option>
+									<option value="">10</option>
+									<option value="">11</option>
+									<option value="">12</option>
+									<option value="">13</option>
+									<option value="">14</option>
+									<option value="">15</option>
+									<option value="">16</option>
+									<option value="">17</option>
+									<option value="">18</option>
+									<option value="">19</option>
+									<option value="">20</option>
+									<option value="">21</option>
+									<option value="">22</option>
+									<option value="">23</option>
+								</select>
+								<select class="selBox_p04">
+									<option value="">00</option>
+									<option value="">05</option>
+									<option value="">10</option>
+									<option value="">15</option>
+									<option value="">20</option>
+									<option value="">25</option>
+									<option value="">30</option>
+									<option value="">35</option>
+									<option value="">40</option>
+									<option value="">45</option>
+									<option value="">50</option>
+									<option value="">55</option>
+								</select>
+							</div>
+						</li>
+						<li>
+							<p class="title">발인일시</p>
+							<div class="comboBox_p04">
+								<input type="text" class="datepicker_p04 ipTxt_p04" placeholder="0000-00-00">
+								<select class="selBox_p04">
+									<option value="">00</option>
+									<option value="">01</option>
+									<option value="">02</option>
+									<option value="">03</option>
+									<option value="">04</option>
+									<option value="">05</option>
+									<option value="">06</option>
+									<option value="">07</option>
+									<option value="">08</option>
+									<option value="">09</option>
+									<option value="">10</option>
+									<option value="">11</option>
+									<option value="">12</option>
+									<option value="">13</option>
+									<option value="">14</option>
+									<option value="">15</option>
+									<option value="">16</option>
+									<option value="">17</option>
+									<option value="">18</option>
+									<option value="">19</option>
+									<option value="">20</option>
+									<option value="">21</option>
+									<option value="">22</option>
+									<option value="">23</option>
+								</select>
+								<select class="selBox_p04">
+									<option value="">00</option>
+									<option value="">05</option>
+									<option value="">10</option>
+									<option value="">15</option>
+									<option value="">20</option>
+									<option value="">25</option>
+									<option value="">30</option>
+									<option value="">35</option>
+									<option value="">40</option>
+									<option value="">45</option>
+									<option value="">50</option>
+									<option value="">55</option>
+								</select>
+							</div>
+						</li>
+						<li>
+							<p class="title">장지</p>
+							<div class="orderInner">
+								<input type="text" class="ipTxt_p04" placeholder="장지 입력">
+							</div>
+						</li>
+
+					</ul>
+					<!-- footer -->
+					<div class="btnBox_p04 other">
+						<button class="btn_p04 btn_p04Pnt" onclick="return ui.popup.open('#giftPop', this);">저장</button>
+					</div>
+					<!-- //footer -->
+				</div>
+			</div>
+			<!--e: contents-->
+		</div>
+
+
+
+
+
+	</div>
+</body>
+<!--s: 장례식장 선택 팝업-->
+<div class="layerPop_p04 fullPopup type2" id="bugoMake" role="dialog" aria-modal="true">
+	<div class="layerPopup_p04 bugoMakePop1">
+		<div class="layerHeader_p04">
+			<h1 class="layerTit_p04">장례식장 검색</h1>
+		</div>
+		<div class="layerCont_p04 ">
+			<div>
+				<form class="searchBox_p04" action="#">
+					<fieldset>
+						<legend>검색</legend>
+						<input type="text" id="searchWrd" name="searchWrd" class="ipSch" title="검색어입력" placeholder="장례식장을 검색하세요">
+					</fieldset>
+				</form>
+			</div>
+			<div class="layerContInner_p04">
+				<div class="innerWrap">
+					<ul class="info">
+						<li class="infoWrap">
+							<button class="list_p04 type2" type="submit">
+								<p class="title">
+									MH 연세병원장례식장
+								</p>
+								<p class="text ellipsis">
+									경상남도 창원시 마산합포구 3.15대로 76(월남동 2가) 에스엠지연세병원장례식장
+								</p>
+							</button>
+						</li>
+						<li class="infoWrap">
+							<button class="list_p04 type2" type="submit">
+								<p class="title">
+									MH 연세병원장례식장
+								</p>
+								<p class="text ellipsis">
+									경상남도 창원시 마산합포구 3.15대로 76(월남동 2가) 에스엠지연세병원장례식장
+								</p>
+							</button>
+						</li>
+						<li class="infoWrap">
+							<button class="list_p04 type2" type="submit">
+								<p class="title">
+									MH 연세병원장례식장
+								</p>
+								<p class="text ellipsis">
+									경상남도 창원시 마산합포구 3.15대로 76(월남동 2가) 에스엠지연세병원장례식장
+								</p>
+							</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="btnBox_p04 full">
+				<button class="btn_p04 btn_p04Gray">더보기</button>
+			</div>
+		</div>
+		<button type="button" class="popClose" title="레이어팝업 닫기">닫기</button>
+	</div>
+</div>
+
+
+
+<!--e: 장례식장 선택 팝업-->
+
+<!--s: 답례품 팝업-->
+<div class="layerPop_p04 other" id="giftPop" role="dialog" aria-modal="true">
+	<div class="layerPopup_p04">
+		<div class="layerHeader_p04">
+			<h1 class="layerTit_p04">답례품</h1>
+		</div>
+		<div class="layerCont_p04 gift">
+			<h2 class="title">조문객에게 답례품으로 감사의 마음을 전하세요</h2>
+			<div class="layerContInner_p04">
+				<div class="layerTxt_p04">
+					<figure class="giftInner">
+						<img src="../resources/images/p04/cont/gift.png" alt="근조화환">
+						<figcaption>
+							<p class="itemTit">[근조] 3단화환-1호</p>
+							<span>69,000원</span>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="layerTxt">
+					<figure class="giftInner">
+						<img src="../resources/images/p04/cont/gift.png" alt="근조화환">
+						<figcaption>
+							<p class="itemTit">[근조] 3단화환-1호</p>
+							<span>69,000원</span>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+			<!-- //layerContInner -->
+			<div class="btnBox_p04">
+				<a href="p04_06.html" class="btn_p04 btn_p04Pnt">자세히보기</a>
+				<a href="p04_02.html" class="btn_p04">나중에 보기</a>
+			</div>
+		</div>
+		<!-- //layerCont -->
+		<button type="button" class="popClose" title="레이어팝업 닫기">닫기</button>
+	</div>
+</div>
+
+
+
+<!--e: 답례품 팝업-->
+
+</html>

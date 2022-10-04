@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    @@include('@@webRoot/html/include/resource.html', {
+        "title" : "전국공무원상조서비스"
+    })
+</head>
+<body>
+<div class="wrap">
+    <!--s: header-->
+    @@include('@@webRoot/html/include/header.html')
+    <!--e: header-->
+
+    <div class="container">
+        <div class="contents main">
+            <h1 class="hidden">공무원상조 메인페이지</h1>
+            <div class="mainContainer_p04 ">
+                <div class="bannerWrap_p04 swiper mySwiper">
+                    <div class="imgWrap swiper-wrapper">
+                        <div class="swiper-slide"><img src="@@webRoot/resources/images/p04/banner.png" alt="배너이미지"></div>
+                        <div class="swiper-slide"><img src="@@webRoot/resources/images/p04/banner.png" alt="배너이미지"></div>
+                        <div class="swiper-slide"> <img src="@@webRoot/resources/images/p04/banner.png" alt="배너이미지"></div>
+                        <div class="swiper-slide"><img src="@@webRoot/resources/images/p04/banner.png" alt="배너이미지"></div>
+                    </div>
+                    <div class="title">
+                        <p>삼가 고인의<br> 명복을 빕니다</p>
+                       <span> 
+                            고인의 마지막을 전국공무원상조서비스가 함께합니다
+                        </span>
+                    </div>
+                    <div class="search_04">
+                        <form action="#">
+                            <fieldset class="searchWrap">
+                                <legend>검색</legend>
+                                <input type="text" id="searchWrd" name="searchWrd" class="ipSch" title="검색어입력" placeholder="상주/고인을 검색하세요">
+                                <button type="submit" class=" btn_p04 btn_p04Full btn_p04Pnt">검색</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="swiper-button-next _p04"></div>
+                    <div class="swiper-button-prev _p04"></div>
+                </div>
+                <div class="mainBox_p04">
+                    <a href="p04_05.html">
+                        <div class="mainBoxInner_p04">
+                            <i class="icon_p04 icon_make"><em class="hidden">부고만들기</em></i>
+                            <p>부고 만들기</p>
+                        </div>
+                    </a>
+                    <a href="p04_03.html">
+                        <div class="mainBoxInner_p04">
+                            <i class="icon_p04 icon_letter"><em class="hidden">부고 보내기</em></i>
+                            <p>부고 보내기</p>
+                        </div>
+                    </a>
+                    <a href="p04_01.html">
+                        <div class="mainBoxInner_p04">
+                            <i class="icon_p04 icon_gift"><em class="hidden">부고검색</em></i>
+                            <p>부고검색</p>
+                        </div>
+                    </a>
+                    <a  href="p04_02.html">
+                        <div class="mainBoxInner_p04">
+                            <i class="icon_p04 icon_wreath"><em class="hidden">부고상세</em></i>
+                            <p>부고상세</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="btnBox_p04 btn_p04Gray bottom">
+                    <a  class="btn_p04" href="#;">버튼</a>
+                    <a class="btn_p04" href="#;">버튼</button>
+                    <a class="btn_p04" href="#;">버튼</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body> 
+
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="arrow" transform="translate(-223 -258)">
+    <rect id="frame" width="24" height="24" transform="translate(223 258)" fill="none"/>
+    <g id="arrow-2" data-name="arrow" transform="translate(-113 -234)">
+      <path id="Vector_59" data-name="Vector 59" d="M6,0,0-6l6-6" transform="translate(351 498) rotate(180)" fill="none" stroke="#c8c9cf" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

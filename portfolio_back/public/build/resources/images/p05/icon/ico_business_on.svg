@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon-material-business-center" transform="translate(-61 -290)">
+    <rect id="사각형_1894" data-name="사각형 1894" width="24" height="24" transform="translate(61 290)" fill="none"/>
+    <path id="Icon_material-business-center" data-name="Icon material-business-center" d="M12.6,20.389V19.167H4.212L4.2,24.056A2.414,2.414,0,0,0,6.6,26.5H23.4a2.414,2.414,0,0,0,2.4-2.444V19.167H17.4v1.222Zm12-11H19.788V6.944L17.388,4.5h-4.8l-2.4,2.444V9.389H5.4A2.43,2.43,0,0,0,3,11.833V15.5a2.414,2.414,0,0,0,2.4,2.444h7.2V15.5h4.8v2.444h7.2A2.43,2.43,0,0,0,27,15.5V11.833A2.43,2.43,0,0,0,24.6,9.389Zm-7.2,0H12.6V6.944h4.8Z" transform="translate(58 286.5)" fill="#fff"/>
+  </g>
+</svg>

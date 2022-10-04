@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    @@include('@@webRoot/html/include/resource.html', {
+        "title" : "테일러쉽"
+    })
+</head>
+<body>
+    <div class="wrap p_05">
+    <!-- header -->
+    @@include('@@webRoot/html/include/header_p05_01.html',{
+        conTit:'개인정보 수정'
+    })
+    <!--// header -->
+        <div class="container_p05">
+            <div class="section_p05">
+                <div class="inner_p05">
+                    <div class="titBox_p05 column">
+                        <div class="imgWrap_p05 elps">
+                            <img src="../resources/images/p05/cont/myPage_profile_big_cont.png" alt="이미지"> 
+                        </div>
+                        <button class="btn_p05 btn_p05No_border bg"><i class="icon_p05 icon_camera"><em class="hidden"></em></i></button>
+                    </div>
+                    <div class="subTxtBox_p05 column">
+                        <p class="title_p05 large_3">홍길동</p>
+                        <button><i class="icon_S_p05 icon_placeSmall"><em class="map"></em></i>서울시, 강남구<i class="icon_S_p05 icon_small-right"></i></button> 
+                    </div>
+                
+                    <div class="titBox_p05 column label_p05">
+                        <label class="title_p05 small_2 basic_color_p05" for="inputNAME">닉네임</label>
+                        <input type="text" class="textarea_p05" id="inputNAME">
+                    </div>
+                    <div class="titBox_p05 column label_p05">
+                        <label class="title_p05 small_2 basic_color_p05" for="inputEMAILL">이메일</label>
+                        <input type="text" class="textarea_p05" id="inputEMAILL" >
+                    </div>
+                    <div class="titBox_p05 column label_p05">
+                        <label class="title_p05 small_2 basic_color_p05" for="inputPW">비밀번호</label>
+                        <div class="position_p05">
+                            <input type="password" class="textarea_p05" id="inputPW" >
+                            <a href="TL_000182.html" class="position_absol_p05 btn_p05 btn_p05No_border text Xsmall_3 basic_color_p05">수정</a>
+                        </div>
+                    </div>
+                    <div class="btnBox_p05">
+                        <a href="p05_06.html" class="btn_p05 btn_p05Primary">다음페이지</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

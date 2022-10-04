@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon-place" transform="translate(-10 -341)">
+    <g id="Icon_feather-map-pin" data-name="Icon feather-map-pin" transform="translate(12.5 345.5)">
+      <path id="패스_1976" data-name="패스 1976" d="M14.318,6.409c0,3.818-4.909,7.091-4.909,7.091S4.5,10.227,4.5,6.409a4.909,4.909,0,1,1,9.818,0Z" fill="#a2a2a2"/>
+      <path id="패스_1977" data-name="패스 1977" d="M17.054,12.277A1.777,1.777,0,1,1,15.277,10.5a1.777,1.777,0,0,1,1.777,1.777Z" transform="translate(-5.868 -5.833)" fill="#fff"/>
+    </g>
+    <rect id="사각형_1898" data-name="사각형 1898" width="24" height="24" transform="translate(10 341)" fill="none"/>
+  </g>
+</svg>

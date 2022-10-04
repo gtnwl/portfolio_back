@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon-material-add-a-photo" transform="translate(-130.928 -152)">
+    <rect id="frame" width="24" height="24" transform="translate(130.928 152)" fill="none"/>
+    <path id="Icon_material-add-a-photo" data-name="Icon material-add-a-photo" d="M2.348,3.786V1.5H3.913V3.786H6.261V5.31H3.913V7.6H2.348V5.31H0V3.786ZM4.7,8.357V6.071H7.043V3.786h5.478L13.954,5.31h2.481A1.549,1.549,0,0,1,18,6.833v9.143A1.549,1.549,0,0,1,16.435,17.5H3.913a1.549,1.549,0,0,1-1.565-1.524V8.357Zm5.478,6.857A3.811,3.811,0,1,0,6.261,11.4,3.864,3.864,0,0,0,10.174,15.214ZM7.67,11.4a2.505,2.505,0,1,0,2.5-2.438A2.469,2.469,0,0,0,7.67,11.4Z" transform="translate(133.928 154.5)" fill="#244d4d"/>
+  </g>
+</svg>

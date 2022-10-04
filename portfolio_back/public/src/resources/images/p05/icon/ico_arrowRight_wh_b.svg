@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon-right-arrow" transform="translate(-325 -158.5)">
+    <rect id="frame" width="24" height="24" transform="translate(325 158.5)" fill="none"/>
+    <path id="_" data-name="&gt;" d="M8,0,0,8l8,8" transform="translate(341 178.5) rotate(180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_17349" data-name="사각형 17349" width="42" height="50" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon-clear" transform="translate(-1149 -364)">
+    <g id="그룹_112477" data-name="그룹 112477" transform="translate(1161 369)">
+      <g id="그룹_112476" data-name="그룹 112476" clip-path="url(#clip-path)">
+        <path id="패스_1583" data-name="패스 1583" d="M29,36.207V44a5.015,5.015,0,0,1-5,5H6a5.015,5.015,0,0,1-5-5V6A5.015,5.015,0,0,1,6,1H24a5.015,5.015,0,0,1,5,5v5.826" fill="none" stroke="#333" stroke-width="2"/>
+        <circle id="타원_5" data-name="타원 5" cx="2" cy="2" r="2" transform="translate(13 5)" fill="none" stroke="#333" stroke-width="2"/>
+        <circle id="타원_6" data-name="타원 6" cx="12" cy="12" r="12" transform="translate(17 12)" fill="none" stroke="#333" stroke-width="2"/>
+        <path id="패스_1584" data-name="패스 1584" d="M24,24.429,28.455,28,34,21" fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+    <rect id="사각형_17350" data-name="사각형 17350" width="60" height="60" transform="translate(1149 364)" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title>테일러샵</title>
+
+	<link rel="stylesheet" type="text/css" href="../resources/css/jquery-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="../resources/css/swiper-bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="../resources/css/common.css" />
+	<script src="../resources/js/lib/jquery-1.11.2.min.js"></script>
+	<script src="../resources/js/lib/jquery.ui.datepicker-ko.js"></script>
+	<script src="../resources/js/lib/jquery-ui.min.js"></script>
+	<script src="../resources/js/lib/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="../resources/js/common.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			ui.popup.open('#choice_1');
+		});
+	</script>
+</head>
+
+<body>
+	<div class="layerPopW_p05 alert" id="choice_1" role="dialog" aria-modal="true">
+		<div class="layerPopup_p05 layerPopup_p05_v2">
+			<div class="layerHeader_p05">
+				<h1 class="layerTit_p05">품목선택</h1>
+			</div>
+			<div class="layerCont_p05 write">
+				<ul class="layerContInner_p05">
+					<li class="optionItem_p05">
+						<input type="radio" id="choice1" name="choice">
+						<label for="choice1"><span>수트(자켓+바지)</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice2" name="choice">
+						<label for="choice2"><span>셔츠</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice3" name="choice">
+						<label for="choice3"><span>조끼</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice4" name="choice">
+						<label for="choice4"><span>코트</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice5" name="choice">
+						<label for="choice5"><span>아우터</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice6" name="choice">
+						<label for="choice6"><span>수제화</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice7" name="choice">
+						<label for="choice7"><span>넥타이</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice8" name="choice">
+						<label for="choice8"><span>부토니에</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice9" name="choice">
+						<label for="choice9"><span>서스펜더</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice10" name="choice">
+						<label for="choice10"><span>여성복</span></label>
+					</li>
+				</ul>
+				<!-- //layerContInner_p05 -->
+			</div>
+			<!-- //layerCont_p05 -->
+		</div>
+	</div>
+	<div class="layerPopW_p05 alert" id="choice_2" role="dialog" aria-modal="true">
+		<div class="layerPopup_p05 layerPopup_p05_v2">
+			<div class="layerHeader_p05">
+				<h1 class="layerTit_p05">원단선택</h1>
+			</div>
+			<div class="layerCont_p05 write">
+				<ul class="layerContInner_p05">
+					<li class="optionItem_p05">
+						<input type="radio" id="choice11" name="choice">
+						<label for="choice11"><span>한국 (제일모직)</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice12" name="choice">
+						<label for="choice12"><span>이태리 (발디니/다볼리/까노니코..)</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice13" name="choice">
+						<label for="choice13"><span>영국 (알프레드 브라운/허더스필드..)</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice14" name="choice">
+						<label for="choice14"><span>모름</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice15" name="choice">
+						<label for="choice15"><span>직접입력</span></label>
+					</li>
+				</ul>
+				<!-- //layerContInner_p05 -->
+			</div>
+			<!-- //layerCont_p05 -->
+		</div>
+	</div>
+	<!-- 여러개 선택시 레이아웃
+<div class="layerPopW_p05 alert" id="choice_3" role="dialog" aria-modal="true">
+    <div class="layerPopup_p05 layerPopup_p05_v2">
+        <div class="layerHeader_p05">
+            <h1 class="layerTit_p05">방문경로</h1>
+        </div>
+        <div class="layerCont_p05 write">
+            <ul class="layerContInner_p05">
+                <li class="optionItem_p05">워킹</li>
+                <li class="optionItem_p05">지인소개</li>
+                <li class="optionItem_p05">SNS</li>
+                <li class="optionItem_p05">인터넷검색</li>
+                <li class="optionItem_p05">연예인협찬</li>
+                <li class="optionItem_p05">직접입력</li>
+            </ul>
+             //layerContInner_p05 
+        </div>
+         //layerCont_p05 
+    </div>
+</div>
+-->
+	<div class="layerPopW_p05 alert" id="choice_3" role="dialog" aria-modal="true">
+		<div class="layerPopup_p05 layerPopup_p05_v2">
+			<div class="layerHeader_p05">
+				<h1 class="layerTit_p05">방문경로</h1>
+			</div>
+			<div class="layerCont_p05 write">
+				<ul class="layerContInner_p05">
+					<li class="optionItem_p05">
+						<input type="radio" id="choice16" name="choice">
+						<label for="choice16"><span>워킹</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice17" name="choice">
+						<label for="choice17"><span>지인소개</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice18" name="choice">
+						<label for="choice18"><span>SNS</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice19" name="choice">
+						<label for="choice19"><span>인터넷검색</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice20" name="choice">
+						<label for="choice20"><span>연예인협찬</span></label>
+					</li>
+					<li class="optionItem_p05">
+						<input type="radio" id="choice21" name="choice">
+						<label for="choice21"><span>직접입력</span></label>
+					</li>
+				</ul>
+				<!-- //layerContInner_p05 -->
+			</div>
+			<!-- //layerCont_p05 -->
+		</div>
+	</div>
+
+</body>
+
+</html>

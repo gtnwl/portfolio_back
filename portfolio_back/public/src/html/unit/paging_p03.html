@@ -1,0 +1,14 @@
+<div class="paging_p03">	
+	<ul class="num_list_p03"> 
+		<li class="first"><a href="#" title="처음페이지">처음</a></li>
+		<li class="prev"><a href="#" title="이전페이지">이전</a></li>
+		<li@@if (context.current == '1' || context.current == null) { class="on"}><a href="#"  title="현재페이지">1</a></li>
+		<li@@if (context.current == '2') { class="on"}><a href="#">2</a></li>
+		<li@@if (context.current == '3') { class="on"}><a href="#">3</a></li>
+		<li@@if (context.current == '4') { class="on"}><a href="#">4</a></li>
+		<li@@if (context.current == '5') { class="on"}><a href="#">5</a></li>
+		<li class="next"><a href="#" title="다음페이지">다음</a></li>
+		<li class="last"><a href="#" title="마지막페이지">마지막</a></li>
+	</ul>
+</div>
+@@if (context.menutype == 'enrollment') {<p class="boardBtn_p03"><a href="@@webRoot/html/@@listLink" class="btnSt01_p03">@@txt</a></p>}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="heart" transform="translate(-296 -813)">
+    <rect id="frame" width="24" height="24" transform="translate(296 813)" fill="none"/>
+    <path id="Shape" d="M20,5.905a6.026,6.026,0,0,1-1.663,4.175l-7.1,7.387a1.7,1.7,0,0,1-2.47,0l-7.1-7.387a6.074,6.074,0,0,1,0-8.351,5.524,5.524,0,0,1,8.029,0L10,2.051l.308-.32a5.523,5.523,0,0,1,8.029,0A6.026,6.026,0,0,1,20,5.905Z" transform="translate(298 816)" fill="#fbb03b"/>
+  </g>
+</svg>

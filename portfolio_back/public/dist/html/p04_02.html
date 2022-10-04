@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title>전국공무원상조서비스</title>
+
+	<link rel="stylesheet" type="text/css" href="../resources/css/jquery-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="../resources/css/swiper-bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="../resources/css/common.css" />
+	<script src="../resources/js/lib/jquery-1.11.2.min.js"></script>
+	<script src="../resources/js/lib/jquery.ui.datepicker-ko.js"></script>
+	<script src="../resources/js/lib/jquery-ui.min.js"></script>
+	<script src="../resources/js/lib/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="../resources/js/common.js"></script>
+
+</head>
+
+<body>
+	<div class="wrap">
+		<!--s: header-->
+		<header class="header_p04 subHeader">
+			<div class="hInner_p04 headerLogo_p04">
+				<div class="icon_p04W">
+					<a href="#" class="prevBtn"><i class="ico_p04 ico_goBack">뒤로가기</i></a>
+				</div>
+				<h2 class="headerTit ">광주연세산업장례식장</h2>
+				<div class="icon_p04W">
+					<a href="index.html"><i class="ico_p04 ico_home"><em class="hidden">홈버튼</em></i></a>
+				</div>
+			</div>
+		</header>
+		<!--e: header-->
+		<div class="container">
+			<!--s: contents-->
+			<div class="contents">
+				<h1 class="hidden">부고 상세페이지</h1>
+				<div class="userInfo_p04">
+					<p>07월 28일 별세</p>
+					<p>故 홍철수(90세/남)</p>
+				</div>
+				<div class="inner_p04">
+					<dl class="searchDtlsBox_p04">
+						<dt class="title">상주</dt>
+						<dd class="list_p04 type2 ">
+							<div class="line dtls">
+								<p>아들</p>
+								<p>홍길동, 홍이동, 홍삼동</p>
+							</div>
+							<div class="line dtls">
+								<p>며느리</p>
+								<p>김일순, 박이순, 최삼순</p>
+							</div>
+							<div class="line dtls">
+								<p>딸</p>
+								<p>홍이녀, 홍삼녀</p>
+							</div>
+						</dd>
+						<dt class="title">빈소/발인/장지</dt>
+						<dd class="list_p04 type2 ">
+							<div class="line dtls">
+								<p>빈소</p>
+								<p>광주장례식장 2호실</p>
+							</div>
+							<div class="line dtls">
+								<p>발인</p>
+								<p>2020년 07월 30일(목요일)<br> 07시 30분 (발인 2일 전)</p>
+							</div>
+							<div class="line dtls">
+								<p>장지</p>
+								<p>광주시승화원~임실호국원</p>
+							</div>
+						</dd>
+						<dt class="title map">
+							<p>오시는길</p>
+							<p><button type="submit">크게보기</button></p>
+						</dt>
+						<dd class="list_p04 type2 map">
+							<p class=" imgText"><img src="../resources/images/p04/cont/mapImg.png" alt="map"></p>
+							<div class="inner_p04">
+								<p class="title">광주장례식장</p>
+								<p class="info">주소 광주광역시 충장로 22- 34 광주빌딩 3층 </p>
+								<p class="info">전화번호 010.6859.6589</p>
+								<p><button class="btn_p04" style="cursor: text;">주소복사</button></p>
+							</div>
+						</dd>
+						<dt class="title">조문메세지<span>(1)</span></dt>
+						<dd class="list_p04 msg">
+							<p class="list_p04 type2">전국공무원상조서비스(주) 삼가 고인의 명복을 빕니다.</p>
+							<p class="list_p04 type2"><textarea type="text" name="msg" placeholder="조문메세지"></textarea></p>
+							<p class="btnBox_p04"><button type="submit" class=" btn_p04" style="cursor: text;">조문메세지 등록</button></p>
+						</dd>
+					</dl>
+
+					<!-- footer -->
+					<div class="btnBox_p04 bugoMake">
+						<a href="p04_05.html" class="btn_p04">부고만들기</a>
+						<a href="#;" class="btn_p04" onclick="return ui.popup.open('#acntInfo', this);">부의금정보</a>
+						<a href="../html/p04_03.html" class="btn_p04">부고보내기</a>
+						<a href="#;" class="btn_p04" onclick="return ui.popup.open('#write', this);">부고수정</a>
+					</div>
+					<!--
+                        <div class="btnBox bugoMake">
+                            <a href="../html/JGS_000130_01.html" class="btn">화환보내기</a>
+                            <a href="#;" class="btn" onclick="return ui.popup.open('#acntInfo', this);">부의금정보</a>
+                            <a href="../html/JGS_000080_01.html" class="btn">부고보내기</a>
+                        </div>
+                        -->
+					<!-- //footer -->
+				</div>
+			</div>
+			<!--e: contents-->
+		</div>
+	</div>
+	<!--s: 글남기기 팝업-->
+	<div class="layerPop_p04 other" id="write" role="dialog" aria-modal="true">
+		<div class="layerPopup_p04">
+			<div class="layerHeader_p04">
+				<h1 class="layerTit_p04">글남기기</h1>
+			</div>
+			<div class="layerCont_p04 write">
+				<div class="layerContInner_p04">
+					<div class="divBox">
+						<h2 class="title">이름</h2>
+						<input type="text" class="ipTxt_p04" placeholder="전국공무원상조서비스(주)">
+					</div>
+					<div class="divBox">
+						<h2 class="title">내용</h2>
+						<textarea class="textarea_p04" placeholder="삼가 고인의 명복을 빕니다."></textarea>
+					</div>
+				</div>
+				<!-- //layerContInner -->
+				<div class="btnBox_p04">
+					<button href="#;" class="btn_p04">취소</button>
+					<button href="#;" class="btn_p04 btn_p04Pnt">확인</button>
+				</div>
+			</div>
+			<!-- //layerCont -->
+			<button type="button" class="popClose" title="레이어팝업 닫기">닫기</button>
+		</div>
+	</div>
+
+
+
+	<!--e: 글남기기 팝업-->
+	<!--s: 부의금 계좌정보 팝업-->
+	<div class="layerPop_p04 fullPopup type1" id="acntInfo" role="dialog" aria-modal="true">
+		<div class="layerPopup_p04 acntInfo">
+			<div class="layerHeader_p04">
+				<h1 class="layerTit_p04">부의금 계좌정보</h1>
+			</div>
+			<div class="layerCont_p04">
+				<div class="layerContInner_p04">
+					<ul class="info acntInfoInfo">
+						<li class="infoWrap acntInfoList">
+							<div class="innerWrap">
+								<p class="title">
+									아들 김기태
+									<span class="num">하나은행 111-2222-3333 홍길동</span>
+								</p>
+								<p><button class="btn_p04">계좌번호 복사</button></p>
+							</div>
+						</li>
+						<li class="infoWrap acntInfoList">
+							<div class="innerWrap">
+								<p class="title">
+									아들 김기태
+									<span class="num">하나은행 111-2222-3333 홍길동</span>
+								</p>
+								<p><button class="btn_p04">계좌번호 복사</button></p>
+							</div>
+						</li>
+						<li class="infoWrap acntInfoList">
+							<div class="innerWrap">
+								<p class="title">
+									아들 김기태
+									<span class="num">하나은행 111-2222-3333 홍길동</span>
+								</p>
+								<p><button class="btn_p04">계좌번호 복사</button></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<button type="button" class="popClose" title="레이어팝업 닫기">닫기</button>
+		</div>
+	</div>
+
+
+
+	<!--e: 부의금 계좌정보 팝업-->
+</body>
+
+</html>
